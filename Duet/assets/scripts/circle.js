@@ -45,14 +45,6 @@ cc.Class({
         this.red.y = 0
         this.blue.y = 0
 
-        //大小设定
-        // this.blue.scale = 2.0
-        // this.red.scale = 2.0
-        
-        // this.node.opacity = 0
-        // this.blue.opacity = 255
-        // this.red.opacity = 255
-
         this.angle = 0
     },
 
