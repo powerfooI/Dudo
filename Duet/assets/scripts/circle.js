@@ -76,7 +76,7 @@ cc.Class({
         });
 
         this.node.on('touchstart',function(event){
-            if(event.getLocationX() < self.centerX){
+            if(event.getLocationX() < self.absolute_centerX){
                 self.roRight = false;
                 self.roLeft = true;
             }
@@ -87,10 +87,12 @@ cc.Class({
         });
 
         this.node.on('touchend',function(event){
-            if(event.getLocationX() < self.centerX){
+            if(event.getLocationX() < self.absolute_centerX){
                 self.roLeft = false;
+                self.roRight = false;
             }
             else {
+                self.roLeft = false;
                 self.roRight = false;
             }
         });
@@ -99,17 +101,20 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        console.log('onload function')
         this.resetPostion()
         this.roLeft = false
         this.roRight = false
-        this.centerX = this.node.width/2
+        this.absolute_centerX = this.node.width/2
         this.rotateControl()
     },
 
     //start函数在onload之后调用
     start () {
-        // console.log('start function')
+
+        // let ctx = this.node.getComponent(cc.Graphics)
+        // ctx.circle(0,this.centerY,this.radius)
+        // ctx.stroke()
+
     },
 
     update (dt) {
