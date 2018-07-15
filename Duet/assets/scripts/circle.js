@@ -15,6 +15,7 @@ cc.Class({
         angle: 0,
         radius: 190,
         unitAngle: 0.07,
+        centerY:-297,
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching
@@ -35,16 +36,14 @@ cc.Class({
     resetPostion: function(){
         // console.log(this)
         // console.log(this.node)
-        console.log(this.node.children)
         this.red = this.node.children[0]
         this.blue = this.node.children[1]
 
         //位置设定
         this.red.x = this.node.x - this.radius
         this.blue.x = this.node.x + this.radius
-        this.red.y = 0
-        this.blue.y = 0
-
+        this.red.y = this.centerY
+        this.blue.y = this.centerY
         this.angle = 0
     },
 
@@ -75,6 +74,26 @@ cc.Class({
                     break;
             }
         });
+
+        this.node.on('touchstart',function(event){
+            if(event.getLocationX() < self.centerX){
+                self.roRight = false;
+                self.roLeft = true;
+            }
+            else {
+                self.roLeft = false;
+                self.roRight = true;
+            }
+        });
+
+        this.node.on('touchend',function(event){
+            if(event.getLocationX() < self.centerX){
+                self.roLeft = false;
+            }
+            else {
+                self.roRight = false;
+            }
+        });
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -84,7 +103,7 @@ cc.Class({
         this.resetPostion()
         this.roLeft = false
         this.roRight = false
-        
+        this.centerX = this.node.width/2
         this.rotateControl()
     },
 
@@ -105,8 +124,8 @@ cc.Class({
         let posx = Math.cos(this.angle) * this.radius
         let posy = Math.sin(this.angle) * this.radius
         this.blue.x = posx
-        this.blue.y = posy
+        this.blue.y = posy + this.centerY
         this.red.x = -posx
-        this.red.y = -posy
+        this.red.y = -posy + this.centerY
     },
 });
