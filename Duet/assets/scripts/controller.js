@@ -12,29 +12,19 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        currentStage:"",
+        lastStage:"",
+
     },
 
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start () {
-
+    // use this for initialization
+    onLoad: function () {
+        cc.game.addPersistRootNode(this.node)
+        cc.log("The Controller has been Started!")
+        cc.game.on("settings",function(event){
+            cc.log(event.detail)
+            cc.log('the controller has gotten the event')
+        })
     },
 
     // update (dt) {},

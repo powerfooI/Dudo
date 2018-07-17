@@ -68,8 +68,10 @@ cc.Class({
             switch(event.keyCode) {
                 case cc.KEY.a:
                     self.roLeft = false;
+                    self.roRight = false;                    
                     break;
                 case cc.KEY.d:
+                    self.roLeft = false;    
                     self.roRight = false;
                     break;
             }
@@ -114,7 +116,10 @@ cc.Class({
         // let ctx = this.node.getComponent(cc.Graphics)
         // ctx.circle(0,this.centerY,this.radius)
         // ctx.stroke()
+        cc.log('this is circle.js')
 
+        let controllerNode = cc.find('Controller Node')
+        cc.log(controllerNode)
     },
 
     update (dt) {

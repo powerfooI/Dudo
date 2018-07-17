@@ -32,9 +32,6 @@ cc.Class({
         this.blue = this.circle.getChildByName('blue')
         this.choicePage = this.node.getChildByName('choicePage')
 
-        cc.log(cc.game.addPersistRootNode(this.node.getChildByName('Controller')))
-
-        
         this.centerY = 100
         this.roLeft = true
         this.roRight = false
@@ -57,14 +54,20 @@ cc.Class({
     },
 
     onClickSettings: function(){
-
+        cc.log('dispatch settings event!')
+        let new_event = new cc.Event.EventCustom('settings',true)
+        new_event.setUserData({
+            case:"1-1",
+            lastCase:"1-0"
+        })
+        cc.game.dispatchEvent(new_event)
     },
 
     onClickStart: function(){
-        this.choicePageSwitch = !this.choicePageSwitch
-        // cc.director.loadScene("game", function(){
-        //     cc.log('the game is started!')
-        // })
+        // this.choicePageSwitch = !this.choicePageSwitch
+        cc.director.loadScene("game", function(){
+            cc.log('the game is started!')
+        })
     },
 
     onChooseLevel:function(){
