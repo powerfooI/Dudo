@@ -19,15 +19,28 @@ cc.Class({
         choicePageSwitch:false,
         touchSwitch:false,
         accAngle:0,
-        circle:{
-            default: null,
-            type:cc.Node,
-        },
+
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        this.init()
+        this.registerEventHandler()
+    },
+
+    start () {
+        cc.director.preloadScene("game", function () {
+            cc.log("Next scene preloaded");
+        });
+    },
+
+    onClickSettings: function(){
+        cc.log(this.choicePage.getChildByName('indicator'))
+    },
+
+    init:function(){
+        this.circle = this.node.getChildByName('circle')
         this.red = this.circle.getChildByName('red')
         this.blue = this.circle.getChildByName('blue')
         this.choicePage = this.node.getChildByName('choicePage')
@@ -39,58 +52,33 @@ cc.Class({
         this.blue.x = this.radius
         this.red.y = this.centerY
         this.blue.y = this.centerY
-
-        this.node.getChildByName('startBn').on('click',this.onClickStart,this)  
-        this.node.getChildByName('settingsBn').on('click',this.onClickSettings,this)
-        this.registerTouchScreen()
-
-        cc.director.preloadScene("game", function () {
-            cc.log("Next scene preloaded");
-        });
-    },
-
-    start () {
-
-    },
-
-    onClickSettings: function(){
-        cc.log('dispatch settings event!')
-        let new_event = new cc.Event.EventCustom('settings',true)
-        new_event.setUserData({
-            case:"1-1",
-            lastCase:"1-0"
-        })
-        cc.game.dispatchEvent(new_event)
     },
 
     onClickStart: function(){
-        // this.choicePageSwitch = !this.choicePageSwitch
-        cc.director.loadScene("game", function(){
-            cc.log('the game is started!')
-        })
+        this.choicePageSwitch = !this.choicePageSwitch
+        // cc.director.loadScene("game", function(){
+        //     cc.log('the game is started!')
+        // })
     },
 
-    onChooseLevel:function(){
-        //Event Handler...
-        this.choicePage.getChildByName
-    },
+    registerEventHandler:function() {
+        this.node.getChildByName('startBn').on('click',this.onClickStart,this)  
+        this.node.getChildByName('settingsBn').on('click',this.onClickSettings,this)
 
-    registerTouchScreen:function() {
-        let self = this
         this.node.on('touchstart',function(event){
-            if(self.choicePageSwitch){
-                self.choicePageSwitch = false
+            if(this.choicePageSwitch){
+                this.choicePageSwitch = false
             }
 
-            if(!self.touchSwitch){
-                self.touchSwitch = true
+            if(!this.touchSwitch){
+                this.touchSwitch = true
             }
-        });
+        },this);
 
         this.node.on('touchend',function(event){
-            self.touchSwitch = false
-            self.accAngle = 0
-        });
+            this.touchSwitch = false
+            this.accAngle = 0
+        },this);
     },
 
     update (dt) {
