@@ -6,7 +6,7 @@ const obstacle = {
 		},
 		square: {
 			width: 200,
-			height: 150
+			height: 250
 		},
 		shortStrip: {
 			width: 200,
@@ -19,6 +19,20 @@ const obstacle = {
 }
 
 const levels = {
+	level_1_0: [
+		{
+			class: "Rect",
+			type: "shortStrip",
+			align: "middle",
+			distanceToPre: 1
+		},
+		{
+			class: "Rect",
+			type: "square",
+			align: "middle",
+			distanceToPre: 1
+		}
+	],
 	level_1_1: [
 		{
 			class: "Rect",
@@ -39,7 +53,49 @@ const levels = {
 			class: "Rect",
 			type: "shortStrip",
 			align: "right",
-			distanceToPre: 0.6
+			distanceToPre: 0.5
+		},
+		{
+			class: "Rect",
+			type: "strip",
+			align: "left",
+			distanceToPre: 1
+		},{
+			class: "Rect",
+			type: "square",
+			align: "middle",
+			distanceToPre: 1
+		},{
+			class: "Rect",
+			type: "strip",
+			align: "left",
+			distanceToPre: 1
+		},{
+			class: "Rect",
+			type: "shortStrip",
+			align: "right",
+			distanceToPre: 0.5
+		},
+		{
+			class: "Rect",
+			type: "strip",
+			align: "left",
+			distanceToPre: 1
+		},{
+			class: "Rect",
+			type: "square",
+			align: "middle",
+			distanceToPre: 1
+		},{
+			class: "Rect",
+			type: "strip",
+			align: "left",
+			distanceToPre: 1
+		},{
+			class: "Rect",
+			type: "shortStrip",
+			align: "right",
+			distanceToPre: 0.5
 		}
 	]
 }

@@ -40,8 +40,10 @@ cc.Class({
     },
 
     onCollisionEnter: function (other, self) {
-        console.log('Collision detected between ' + other.name + " and " + self.name)
-        console.log('dead')
+        //发送撞击事件
+        let deadEvent = new cc.Event.EventCustom('CollisionDead', true)
+        // deadEvent.setUserData();
+        this.node.dispatchEvent(deadEvent)
     },
 
     start () {
