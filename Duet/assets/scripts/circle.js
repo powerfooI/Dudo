@@ -16,28 +16,9 @@ cc.Class({
         radius: 190,
         unitAngle: 0.07,
         centerY: -350,
-        rewind: false,
-        pause: false
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
     },
 
-    resetPostion: function(){
-        // console.log(this)
-        // console.log(this.node)
+    resetPostion: function () {
         this.red = this.node.children[0]
         this.blue = this.node.children[1]
 
@@ -49,12 +30,12 @@ cc.Class({
         this.angle = 0
     },
 
-    rotateControl: function(){
+    rotateControl: function () {
         let self = this
 
         //键盘监听事件
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, function (event){
-            switch(event.keyCode) {
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, function (event) {
+            switch (event.keyCode) {
                 case cc.KEY.a:
                     self.roRight = false;
                     self.roLeft = true;
@@ -66,87 +47,74 @@ cc.Class({
             }
         });
 
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, function (event){
-            switch(event.keyCode) {
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, function (event) {
+            switch (event.keyCode) {
                 case cc.KEY.a:
                     self.roLeft = false;
-                    self.roRight = false;                    
+                    self.roRight = false;
                     break;
                 case cc.KEY.d:
-                    self.roLeft = false;    
+                    self.roLeft = false;
                     self.roRight = false;
                     break;
             }
         });
 
         //触摸事件
-        this.node.on('touchstart',function(event){
-            if(event.getLocationX() < self.absolute_centerX){
+        this.node.on('touchstart', function (event) {
+            if (event.getLocationX() < self.absolute_centerX) {
                 self.roRight = false;
                 self.roLeft = true;
-            }
-            else {
+            } else {
                 self.roLeft = false;
                 self.roRight = true;
             }
         });
 
-        this.node.on('touchend',function(event){
-            if(event.getLocationX() < self.absolute_centerX){
+        this.node.on('touchend', function (event) {
+            if (event.getLocationX() < self.absolute_centerX) {
                 self.roLeft = false;
                 self.roRight = false;
-            }
-            else {
+            } else {
                 self.roLeft = false;
                 self.roRight = false;
             }
         });
     },
 
-    drawCenterCircle: function(){
+    drawCenterCircle: function () {
         //绘制中心的圆
         let ctx = this.addComponent(cc.Graphics)
 
         ctx.lineWidth = 4
         ctx.strokeColor = cc.hexToColor('#555555')
         ctx.strokeColor.a = 150
-        ctx.circle(this.node.width/2, this.node.height/2 + this.centerY, this.radius)
+        ctx.circle(this.node.width / 2, this.node.height / 2 + this.centerY, this.radius)
         ctx.stroke()
     },
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
+    onLoad() {
+        this.status = "off", //可以是off, on, pause, rewind
         //重制位置
         this.resetPostion()
         this.roLeft = false
         this.roRight = false
-        this.absolute_centerX = this.node.width/2
+        this.absolute_centerX = this.node.width / 2
 
         //加入旋转
         this.rotateControl()
 
         //绘制图形
         this.drawCenterCircle()
-
-        // this.node.on('Collision', function (event) {
-            //撞击之后的事件
-            // console.log('circle game got message')
-            // this.rewind = true
-            // if (this.rewind) return
-            // this.pause = true
-            // this.rewindMark = 0
-            // this.rewindAnlge = 0
-            // console.log(event)
-            // event.stopPropagation();
-        // }, this);
     },
 
     //start函数在onload之后调用
-    start () {
+    start() {
 
     },
 
-    updateDotPos: function(){
+    updateDotPos: function () {
         let posx = Math.cos(this.angle) * this.radius
         let posy = Math.sin(this.angle) * this.radius
         this.blue.x = posx
@@ -155,45 +123,42 @@ cc.Class({
         this.red.y = -posy + this.centerY
     },
 
-    update (dt) {
-        if (this.pause) {
-            // if (this.rewindMark >= 30) {
-            //     this.pause = false
-            //     this.rewindMark = 0
-            //     this.rewind = true
-            // }
-            // else if (this.rewindAnlge === 0){
-            //     let tempAngle = this.angle % Math.PI
-            //     if (tempAngle > Math.PI / 2) this.rewindAnlge = tempAngle - Math.PI
-            //     else this.rewindAnlge = tempAngle
-            // }
-            // else {
-            //     this.rewindMark++
-            // }
-        }
-        else if (this.rewind){
-            //死亡，回到原点
-            if (this.rewindMark < 60){
-                this.angle -= (this.rewindAnlge + 2 * Math.PI) / 60
+    update(dt) {
+        switch (this.status) {
+            case "pause":
+                break
+            case "rewind":
+                if (this.frameMark < 60) {
+                    this.angle -= (this.rewindAnlge + 2 * Math.PI) / 60
+                    this.updateDotPos()
+                    this.frameMark++
+                } else {
+                    this.status = 'on'
+                    this.rewindAnlge = 0
+                    this.node.dispatchEvent(new cc.Event.EventCustom('CollisionRelive', true))
+                }
+                break
+            case "revolve":
+                if (this.frameMark < 60) {
+                    this.angle -= (this.revolveAnlge) / 60
+                    this.updateDotPos()
+                    this.frameMark++
+                } else {
+                    this.status = 'on'
+                    this.revolveAnlge = 0
+                    this.node.dispatchEvent(new cc.Event.EventCustom('NewLevelStart', true))
+                }
+                break
+            default:
+                //正常情况，接受用户交互
+                if (this.roLeft) {
+                    this.angle += this.unitAngle
+                } else if (this.roRight) {
+                    this.angle -= this.unitAngle
+                }
+                //计算新的位置
                 this.updateDotPos()
-                this.rewindMark++
-            }
-            else {
-                this.rewind = false
-                this.rewindAnlge = 0
-                this.node.dispatchEvent(new cc.Event.EventCustom('CollisionRelive', true))
-            }
-        }
-        else {
-            //正常情况，接受用户交互
-            if (this.roLeft){
-                this.angle += this.unitAngle
-            }
-            else if (this.roRight){
-                this.angle -= this.unitAngle
-            }
-            //计算新的位置
-            this.updateDotPos()
+                break
         }
     },
 });

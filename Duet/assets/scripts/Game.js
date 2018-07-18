@@ -22,72 +22,102 @@ cc.Class({
             default: null,
             type: cc.Node,
         },
-        gameStatus: "on"
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
-        this.pauseMark = 0
+    onLoad() {
+        this.gameStatus = "on"
+        this.frameMark = 0
+    },
+
+    //start在update前，其他组件onload之后，可以开始加载障碍
+    start() {
+        //加载控制器
+        this.controller = cc.find('Controller Node').getComponent('controller')
+
+        //加载第一个关卡
+        this.obstacles.getComponent("obstacles").drawLevel(this.controller.currentLevel)
+        this.obstacles.getComponent("obstacles").status = 'on'
+        this.circle.getComponent("circle").status = 'on'
+
+        // this.loadControllerLevel()
+
+        //加载下一关事件
+        this.node.on('LevelPassed', function (event) {
+            //过关之后有一段时间暂停
+            this.gameStatus = 'passPause'
+            this.obstacles.getComponent("obstacles").status = 'off'
+            this.circle.getComponent("circle").status = 'pause'
+            this.frameMark = 0
+
+            //加载下一关
+            this.controller.currentLevel = 'level_1_0'
+            this.obstacles.getComponent("obstacles").drawLevel(this.controller.currentLevel)
+
+            //设置revolve
+            //计算要旋转的角度
+            let circle = this.circle.getComponent("circle")
+            circle.frameMark = 0
+            let tempAngle = (circle.angle % Math.PI)
+            if (tempAngle > Math.PI / 2) circle.revolveAnlge = tempAngle - Math.PI
+            else if (tempAngle < -Math.PI / 2) circle.revolveAnlge = tempAngle + Math.PI
+            else circle.revolveAnlge = tempAngle
+
+        }, this)
+
+        //撞击死亡事件
         this.node.on('CollisionDead', function (event) {
             //撞击之后的事件
-            if (this.gameStatus === 'on'){
+            if (this.gameStatus === 'on') {
                 //游戏正在运行,发生碰撞,暂停
-                this.gameStatus = 'pause'
-                this.obstacles.getComponent("obstacles").pause = true
-                this.circle.getComponent("circle").pause = true
-                this.pauseMark = 0
+                this.gameStatus = 'deadPause'
+                this.obstacles.getComponent("obstacles").status = 'pause'
+                this.circle.getComponent("circle").status = 'pause'
+                this.frameMark = 0
 
                 //计算要旋转的角度
                 let circle = this.circle.getComponent("circle")
-                circle.rewindMark = 0
+                circle.frameMark = 0
                 let tempAngle = (circle.angle % Math.PI)
                 if (tempAngle > Math.PI / 2) circle.rewindAnlge = tempAngle - Math.PI
                 else if (tempAngle < -Math.PI / 2) circle.rewindAnlge = tempAngle + Math.PI
                 else circle.rewindAnlge = tempAngle
-
-                // console.log('rewindAnlge: ' + circle.rewindAnlge)
             }
-            // if (this.obstacles.getComponent("obstacles").rewind) return
-            // this.obstacles.getComponent("obstacles").pause = true
-            // this.obstacles.getComponent("obstacles").pauseMark = 0
-            // event.stopPropagation();
         }, this)
-        this.node.on('CollisionRelive', function(event){
+
+        //撞击复活事件
+        this.node.on('CollisionRelive', function (event) {
             this.gameStatus = 'on'
         }, this)
 
+        //开始下一关事件
+        this.node.on('NewLevelStart', function (event) {
+            this.gameStatus = 'on'
+            this.obstacles.getComponent("obstacles").status = 'on'
+        }, this)
     },
 
-    start() {
+    update(dt) {
+        switch (this.gameStatus) {
+            case "deadPause":
+                if (this.frameMark >= 30) {
+                    this.gameStatus = 'rewind'
 
-    },
+                    this.obstacles.getComponent("obstacles").status = 'rewind'
+                    this.circle.getComponent("circle").status = 'rewind'
+                } else this.frameMark++
+                    break
+            case "passPause":
+                if (this.frameMark >= 60) {
+                    this.gameStatus = 'on'
 
-    update (dt) {
-        if (this.gameStatus === 'pause'){
-            if (this.pauseMark >= 30){
-                this.gameStatus = 'rewind'
-                this.obstacles.getComponent("obstacles").pause = false
-                this.circle.getComponent("circle").pause = false
-                this.obstacles.getComponent("obstacles").rewind = true
-                this.circle.getComponent("circle").rewind = true
-            }
-            else this.pauseMark++
+                    this.obstacles.getComponent("obstacles").status = 'pause'
+                    this.circle.getComponent("circle").status = 'revolve'
+                } else this.frameMark++
+                    break
+            default:
+                break
         }
     },
 });

@@ -33,7 +33,7 @@ const levels = {
 			distanceToPre: 1
 		}
 	],
-	level_1_1: [
+	Normal_1_1: [
 		{
 			class: "Rect",
 			type: "strip",

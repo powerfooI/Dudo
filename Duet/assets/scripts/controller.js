@@ -14,7 +14,7 @@ cc.Class({
     properties: {
         currentStage:'startMenu',
         lastStage:"",
-
+        currentLevel: "",
     },
 
     // use this for initialization
@@ -27,11 +27,13 @@ cc.Class({
         cc.director.preloadScene("game");
     },
 
-    registerChoiceButtonClick : function(){
+    registerChoiceButtonClick: function(){
         cc.game.on('choiceButtonClickEvent',function(event){
-            cc.log(event.detail)
+            // cc.log(event.detail)
+            this.currentStage = "game"
+            this.currentLevel = event.detail.levelName
             cc.director.loadScene('game')
-        })
+        }, this)
     },
 
     // update (dt) {},

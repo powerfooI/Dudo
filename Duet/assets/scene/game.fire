@@ -799,9 +799,7 @@
     "angle": 0,
     "radius": 190,
     "unitAngle": 0.08,
-    "centerY": -350,
-    "rewind": false,
-    "pause": false
+    "centerY": -350
   },
   {
     "__type__": "cc.Node",
@@ -867,9 +865,7 @@
     "radius": 190,
     "obstaclePrefab": {
       "__uuid__": "3b49f85d-61d6-4a86-bd07-8112d0207371"
-    },
-    "rewind": false,
-    "pause": false
+    }
   },
   {
     "__type__": "cc.Canvas",
@@ -900,7 +896,6 @@
     },
     "obstacles": {
       "__id__": 19
-    },
-    "gameStatus": "on"
+    }
   }
 ]
