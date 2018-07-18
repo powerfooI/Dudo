@@ -30,13 +30,12 @@ cc.Class({
     },
 
     start () {
-        cc.director.preloadScene("game", function () {
-            cc.log("Next scene preloaded");
-        });
+        cc.director.preloadScene("game");
     },
 
     onClickSettings: function(){
-        cc.log(this.choicePage.getChildByName('indicator'))
+        cc.log(this.choicePage)
+
     },
 
     init:function(){

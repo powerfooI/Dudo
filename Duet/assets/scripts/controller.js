@@ -23,10 +23,14 @@ cc.Class({
         this.registerChoiceButtonClick()
     },
 
+    onStart:function(){
+        cc.director.preloadScene("game");
+    },
+
     registerChoiceButtonClick : function(){
         cc.game.on('choiceButtonClickEvent',function(event){
             cc.log(event.detail)
-
+            cc.director.loadScene('game')
         })
     },
 

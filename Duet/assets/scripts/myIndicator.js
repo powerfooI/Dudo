@@ -12,24 +12,42 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-
+        currentIndex:0,
+        lastIndex:0
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        this.node.on('click',function(event){
-            let choiceButtonClickEvent = new cc.Event.EventCustom('choiceButtonClickEvent',true)
-            choiceButtonClickEvent.setUserData({
-                levelName:this.node.parent.name + '_' + this.node.name
-            })
-            cc.game.dispatchEvent(choiceButtonClickEvent)
-        },this)
+        this.labels = this.node.children
+        this.pageView = this.node.parent._components[0]
+        this.refresh()
     },
 
     start () {
 
     },
 
-    // update (dt) {},
+    refresh:function(){
+        for(let i = 0;i<this.labels.length;++i){
+            if(i===this.currentIndex){
+                this.labels[i].opacity = 255
+            }
+            else{
+                this.labels[i].opacity = 128
+            }
+        }
+    },
+
+    nowIndex:function(){
+        return this.pageView.getCurrentPageIndex()
+    },
+
+    update (dt) {
+        this.currentIndex = this.nowIndex()
+        if(this.currentIndex!=this.lastIndex){
+            this.refresh()
+            this.lastIndex = this.currentIndex
+        }
+    },
 });

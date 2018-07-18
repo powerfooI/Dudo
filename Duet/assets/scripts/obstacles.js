@@ -98,7 +98,8 @@ cc.Class({
         cc.log('onload function obstacles')
 
         
-        this.levelSetup = require('scripts/levels.js')
+        // this.levelSetup = require('scripts/levels.js')
+        this.levelSetup = require('levels')
 
         //根据场景输入获取关卡
         const levelNum = 'level_1_1'
