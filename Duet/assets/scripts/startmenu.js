@@ -40,8 +40,8 @@ cc.Class({
 
     init:function(){
         this.circle = this.node.getChildByName('circle')
-        this.red = this.circle.getChildByName('red')
-        this.blue = this.circle.getChildByName('blue')
+        this.red = this.circle.getChildByName('Red')
+        this.blue = this.circle.getChildByName('Blue')
         this.choicePage = this.node.getChildByName('choicePage')
 
         this.centerY = 100

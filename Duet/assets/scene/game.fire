@@ -256,8 +256,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 60,
-      "height": 60
+      "width": 0,
+      "height": 0
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -297,7 +297,7 @@
     "_totalParticles": 150,
     "_duration": -1,
     "_emissionRate": 100,
-    "_life": 1.5,
+    "_life": 1.2,
     "_lifeVar": 0,
     "_startColor": {
       "__type__": "cc.Color",
@@ -352,9 +352,9 @@
     "_gravity": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 0
+      "y": -200
     },
-    "_speed": 200,
+    "_speed": 300,
     "_speedVar": 0,
     "_tangentialAccel": 0,
     "_tangentialAccelVar": 0,
@@ -566,8 +566,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 60,
-      "height": 60
+      "width": 0,
+      "height": 0
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -607,7 +607,7 @@
     "_totalParticles": 150,
     "_duration": -1,
     "_emissionRate": 100,
-    "_life": 1.5,
+    "_life": 1.2,
     "_lifeVar": 0,
     "_startColor": {
       "__type__": "cc.Color",
@@ -662,9 +662,9 @@
     "_gravity": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 0
+      "y": -200
     },
-    "_speed": 200,
+    "_speed": 300,
     "_speedVar": 0,
     "_tangentialAccel": 0,
     "_tangentialAccelVar": 0,
