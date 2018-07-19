@@ -75,9 +75,9 @@ cc.Class({
         this.node.on('touchend', function (event) {
             if (event.getLocationX() < self.absolute_centerX) {
                 self.roLeft = false;
-                self.roRight = false;
+                // self.roRight = false;
             } else {
-                self.roLeft = false;
+                // self.roLeft = false;
                 self.roRight = false;
             }
         });
