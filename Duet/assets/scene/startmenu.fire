@@ -734,7 +734,7 @@
     "_autoRemoveOnFinish": false,
     "_totalParticles": 150,
     "_duration": -1,
-    "_emissionRate": 100,
+    "_emissionRate": 70,
     "_life": 1,
     "_lifeVar": 0,
     "_startColor": {
@@ -1013,7 +1013,7 @@
     "_autoRemoveOnFinish": false,
     "_totalParticles": 150,
     "_duration": -1,
-    "_emissionRate": 100,
+    "_emissionRate": 70,
     "_life": 1,
     "_lifeVar": 0,
     "_startColor": {
