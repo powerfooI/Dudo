@@ -20,10 +20,11 @@ cc.Class({
     onLoad () {
         this.init()
         this.registerEventHandler()
+        // cc.log(this.node.getChildByName('content').getChildByName('content'))
     },
 
     init:function(){
-        this.node.y = -325
+
     },
 
     registerEventHandler:function(){
@@ -36,21 +37,20 @@ cc.Class({
         },this)
 
         this.node.on('touchmove',function(event){
-            if(this.node.y+event.getDelta().y>=-325 && this.node.y+event.getDelta().y<=325){
+            if(this.node.y+event.getDelta().y>=this.minY && this.node.y+event.getDelta().y<=this.maxY){
                 this.node.y += event.getDelta().y
             }
-            else if(this.node.y+event.getDelta().y < -325){
-                this.node.y = -325
+            else if(this.node.y+event.getDelta().y < this.minY){
+                this.node.y = this.minY
             }
-            else if(this.node.y+event.getDelta().y > 325){
-                this.node.y = 325
+            else if(this.node.y+event.getDelta().y > this.maxY){
+                this.node.y = this.maxY
             }
             event.stopPropagation()
         },this)
     },
 
     start () {
-
     },
 
     // update (dt) {},

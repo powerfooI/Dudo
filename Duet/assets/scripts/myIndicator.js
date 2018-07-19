@@ -13,7 +13,11 @@ cc.Class({
 
     properties: {
         currentIndex:0,
-        lastIndex:0
+        lastIndex:0,
+        underlinePrefab:{
+            default:null,
+            type:cc.Prefab,
+        }
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -32,9 +36,17 @@ cc.Class({
         for(let i = 0;i<this.labels.length;++i){
             if(i===this.currentIndex){
                 this.labels[i].opacity = 255
+                let childnode = cc.instantiate(this.underlinePrefab)
+                this.labels[i].addChild(childnode)
+                childnode.width = 133 
+                childnode.height = 5
+                childnode.setPosition(cc.p(0, -30))
             }
             else{
                 this.labels[i].opacity = 128
+                if(this.labels[i].childrenCount>0){
+                    this.labels[i].children[0].destroy()
+                }
             }
         }
     },

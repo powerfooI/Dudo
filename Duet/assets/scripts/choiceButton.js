@@ -18,6 +18,19 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        this.init()
+        this.registerClickEvent()
+    },
+
+    start () {
+
+    },
+
+    init:function(){
+        
+    },
+
+    registerClickEvent:function(){
         this.node.on('click',function(event){
             let choiceButtonClickEvent = new cc.Event.EventCustom('choiceButtonClickEvent',true)
             choiceButtonClickEvent.setUserData({
@@ -26,10 +39,5 @@ cc.Class({
             cc.game.dispatchEvent(choiceButtonClickEvent)
         },this)
     },
-
-    start () {
-
-    },
-
     // update (dt) {},
 });

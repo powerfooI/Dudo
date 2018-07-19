@@ -43,7 +43,7 @@ cc.Class({
         this.red = this.circle.getChildByName('Red')
         this.blue = this.circle.getChildByName('Blue')
         this.choicePage = this.node.getChildByName('choicePage')
-
+        
         this.centerY = 100
         this.roLeft = true
         this.roRight = false
