@@ -12,13 +12,14 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        angle: 0,
-        radius: 190,
-        unitAngle: 0.07,
-        centerY: -350,
+        // angle: 0,
+        // radius: 190,
+        // unitAngle: 0.07,
+        // centerY: -440,
     },
 
     resetPostion: function () {
+        this.angle = 0
         this.red = this.node.children[0]
         this.blue = this.node.children[1]
 
@@ -51,10 +52,10 @@ cc.Class({
             switch (event.keyCode) {
                 case cc.KEY.a:
                     self.roLeft = false;
-                    self.roRight = false;
+                    // self.roRight = false;
                     break;
                 case cc.KEY.d:
-                    self.roLeft = false;
+                    // self.roLeft = false;
                     self.roRight = false;
                     break;
             }
@@ -94,8 +95,25 @@ cc.Class({
     },
     // LIFE-CYCLE CALLBACKS:
 
+    preSetValueLoad: function() {
+        //加载预设值
+        let inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
+        this.radius = inputInfo.circleInfo.radius
+        this.unitAngle = inputInfo.circleInfo.angularVelocity
+        this.centerY = inputInfo.circleInfo.centerY
+        // this.deadPauseTime = inputInfo.gameTime.deadPause
+        // this.passPause = inputInfo.gameTime.passPause
+        this.rewindTime = inputInfo.gameTime.rewind
+        this.revolveTime = inputInfo.gameTime.revolve
+    },
+
     onLoad() {
-        this.status = "off", //可以是off, on, pause, rewind
+        //设置状态
+        this.status = "off" //可以是off, on, pause, rewind
+        
+        //加载预设值
+        this.preSetValueLoad()
+        
         //重制位置
         this.resetPostion()
         this.roLeft = false
@@ -128,8 +146,8 @@ cc.Class({
             case "pause":
                 break
             case "rewind":
-                if (this.frameMark < 60) {
-                    this.angle -= (this.rewindAnlge + 2 * Math.PI) / 60
+                if (this.frameMark < this.rewindTime) {
+                    this.angle -= (this.rewindAnlge + 2 * Math.PI) / this.rewindTime
                     this.updateDotPos()
                     this.frameMark++
                 } else {
@@ -139,8 +157,8 @@ cc.Class({
                 }
                 break
             case "revolve":
-                if (this.frameMark < 60) {
-                    this.angle -= (this.revolveAnlge) / 60
+                if (this.frameMark < this.revolveTime) {
+                    this.angle -= (this.revolveAnlge) / this.revolveTime
                     this.updateDotPos()
                     this.frameMark++
                 } else {

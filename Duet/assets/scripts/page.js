@@ -96,7 +96,7 @@ cc.Class({
         for(let i = 1;i<=buttonNum;++i){
             let newBn = cc.instantiate(this.bnTemps[i])
             this.node.addChild(newBn)
-            newBn.name = this.node.name + `_${chapterNum}_${i}`
+            newBn.name = `${chapterNum}_${i}`
             newBn.setPosition(cc.p(posX,posY))
             if(i%3===0){
                 posX = -150

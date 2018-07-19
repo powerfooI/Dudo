@@ -34,7 +34,7 @@ cc.Class({
         this.node.on('click',function(event){
             let choiceButtonClickEvent = new cc.Event.EventCustom('choiceButtonClickEvent',true)
             choiceButtonClickEvent.setUserData({
-                levelName:this.node.parent.name + '_' + this.node.name
+                levelName: this.node.parent.name + '_' + this.node.name
             })
             cc.game.dispatchEvent(choiceButtonClickEvent)
         },this)

@@ -19,6 +19,8 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
+        this.preSetInfo = require('gamePreSet')
+
         cc.game.addPersistRootNode(this.node)
         this.registerChoiceButtonClick()
     },

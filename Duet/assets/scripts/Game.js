@@ -27,15 +27,22 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        //加载控制器
+        this.controller = cc.find('Controller Node').getComponent('controller')
+
+        //预设值
+        this.deadPauseTime = this.controller.preSetInfo.gameTime.deadPause
+        this.passPauseTime = this.controller.preSetInfo.gameTime.passPause
+
+        // this.circle.getComponent("circle").radius = this.radius
+        // this.obstacles.getComponent("obstacles").spacing = 2 * this.radius
+        
         this.gameStatus = "on"
         this.frameMark = 0
     },
 
     //start在update前，其他组件onload之后，可以开始加载障碍
     start() {
-        //加载控制器
-        this.controller = cc.find('Controller Node').getComponent('controller')
-
         //加载第一个关卡
         this.obstacles.getComponent("obstacles").drawLevel(this.controller.currentLevel)
         this.obstacles.getComponent("obstacles").status = 'on'
@@ -52,7 +59,7 @@ cc.Class({
             this.frameMark = 0
 
             //加载下一关
-            this.controller.currentLevel = 'level_1_0'
+            this.controller.currentLevel = 'Normal_1_1'
             this.obstacles.getComponent("obstacles").drawLevel(this.controller.currentLevel)
 
             //设置revolve
@@ -101,15 +108,19 @@ cc.Class({
     update(dt) {
         switch (this.gameStatus) {
             case "deadPause":
-                if (this.frameMark >= 30) {
+                if (this.frameMark >= this.deadPauseTime) {
                     this.gameStatus = 'rewind'
 
                     this.obstacles.getComponent("obstacles").status = 'rewind'
                     this.circle.getComponent("circle").status = 'rewind'
+
+                    // console.log(this.obstacles)
+                    // let obst = this.obstacles.getComponent("obstacles")
+
                 } else this.frameMark++
                     break
             case "passPause":
-                if (this.frameMark >= 60) {
+                if (this.frameMark >= this.passPauseTime) {
                     this.gameStatus = 'on'
 
                     this.obstacles.getComponent("obstacles").status = 'pause'
