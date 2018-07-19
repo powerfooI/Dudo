@@ -78,6 +78,8 @@ cc.Class({
                     this.beginRotateDis = 3 * inputInfo.obstaclesInfo.spacing + inputInfo.circleInfo.centerY + inputInfo.circleInfo.radius
                     this.rotateSpeed = 180 * this.parentSpeed / (3 * inputInfo.obstaclesInfo.spacing)
                     this.rewindScale = inputInfo.animationInfo.rewindScale
+                    this.node.x -= inputInfo.animationInfo.posXDebt
+                    this.node.originX = this.node.x
                     break
                 case "disapper":
                     this.disapperDis = inputInfo.animationInfo.disapperDis
