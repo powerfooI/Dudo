@@ -12,7 +12,6 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        audioInfo:cc.Node,
         angle: 0,
         radius: 180,
         unitAngle: 0.07,
@@ -33,9 +32,8 @@ cc.Class({
         cc.director.preloadScene("game");
     },
 
-    onClickSettings: function(){
-        cc.log(this.choicePage)
-
+    onClickRanking: function(){
+        cc.log('这个按钮用来连接开放数据域，勿动！具体操作是将launch脚本放置在Canvas上，看WSY手机上图片的节点配置！')
     },
 
     init:function(){
@@ -62,7 +60,7 @@ cc.Class({
 
     registerEventHandler:function() {
         this.node.getChildByName('startBn').on('click',this.onClickStart,this)  
-        this.node.getChildByName('settingsBn').on('click',this.onClickSettings,this)
+        this.node.getChildByName('rankingBn').on('click',this.onClickRanking,this)
 
         this.node.on('touchstart',function(event){
             if(this.choicePageSwitch){

@@ -12,29 +12,25 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        currentStage:'startMenu',
-        lastStage:"",
-        currentLevel: "",
+
     },
 
-    // use this for initialization
-    onLoad: function () {
-        this.preSetInfo = require('gamePreSet')
-        cc.game.addPersistRootNode(this.node)
-        this.registerChoiceButtonClick()
+    // LIFE-CYCLE CALLBACKS:
+
+    onLoad () {
+
     },
 
-    onStart:function(){
-        cc.director.preloadScene("game");
+    play: function () {
+        this.node._components[0].play()
+    },
+    pause: function () {
+        this.node._components[0].pause()
+        // this.audioSource.pause();
     },
 
-    registerChoiceButtonClick: function(){
-        cc.game.on('choiceButtonClickEvent',function(event){
-            // cc.log(event.detail)
-            this.currentStage = "game"
-            this.currentLevel = event.detail.levelName
-            cc.director.loadScene('game')
-        }, this)
+    start () {
+        this.play()
     },
 
     // update (dt) {},
