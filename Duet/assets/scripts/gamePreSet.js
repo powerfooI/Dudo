@@ -23,13 +23,8 @@ const animationInfo = {
     speedScaleLR: 1,
 
     //spin动画的属性
-    rewindScale: 6,
-
-    //rotate_L,R属性
     moveYDebt: 20,
-
-    //SideRotate_L,R属性
-    posXDebt: 30,
+    rewindScale: 6,
 
     //消失动画的属性
     disapperDis: 500,

@@ -1975,7 +1975,8 @@
     "unitAngle": 0.05,
     "choicePageSwitch": false,
     "touchSwitch": false,
-    "accAngle": 0
+    "accAngle": 0,
+    "animationSwitch": false
   },
   {
     "__type__": "cc.Node",

@@ -18,7 +18,7 @@ cc.Class({
         choicePageSwitch:false,
         touchSwitch:false,
         accAngle:0,
-
+        animationSwitch:false
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -34,6 +34,7 @@ cc.Class({
 
     onClickRanking: function(){
         cc.log('这个按钮用来连接开放数据域，勿动！具体操作是将launch脚本放置在Canvas上，看WSY手机上图片的节点配置！')
+        this.animationSwitch = true
     },
 
     init:function(){
@@ -53,6 +54,7 @@ cc.Class({
 
     onClickStart: function(){
         this.choicePageSwitch = !this.choicePageSwitch
+
         // cc.director.loadScene("game", function(){
         //     cc.log('the game is started!')
         // })
@@ -79,6 +81,16 @@ cc.Class({
     },
 
     update (dt) {
+        if(this.animationSwitch){
+            if(this.angle%Math.PI <= 0.01){
+                this.node.getComponent(cc.Animation).play('MTB',()=>{
+                    this.unitAngle = 0.07
+                })
+                this.unitAngle = 0.15
+                this.animationSwitch = false
+            }
+        }
+
         if(this.accAngle<=0.1 && this.touchSwitch){
             this.accAngle += 0.001
         }

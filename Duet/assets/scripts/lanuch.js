@@ -10,6 +10,16 @@ cc.Class({
     start () {
         this._isShow = false;
         this.tex = new cc.Texture2D();
+
+        let kvDataList = []
+        kvDataList.push({
+            key: "score",
+            value: "99"
+        });
+
+        wx.setUserCloudStorage({
+            KVDataList: kvDataList
+        }) 
     },
 
     onClick () {
@@ -18,16 +28,6 @@ cc.Class({
         wx.postMessage({
             message: this._isShow ? 'Show' : 'Hide'
         })
-
-        // let kvDataList = []
-        // kvDataList.push({
-        //     key: "score",
-        //     value: "111"
-        // });
-
-        // wx.setUserCloudStorage({
-        //     KVDataList: kvDataList
-        // }) 
 
         if(this._isShow){
             let shutdownBn = cc.instantiate(this.shutDownBnTemp)
