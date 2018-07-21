@@ -15,6 +15,10 @@ cc.Class({
         bnTemps:{
             default:[],
             type:[cc.Prefab]
+        },
+        tagTemps:{
+            default:[],
+            type:[cc.Prefab]
         }
     },
 
@@ -61,25 +65,31 @@ cc.Class({
     setButtons:function(chapterNum,buttonNum){
         //chapterNum章节数，buttonNum按键数(最大不超过9)
 
-        let posY = 950
+        let posY = 850
         switch(chapterNum){
             case 1:
-                posY = 850
+                posY = 1350
                 break
             case 2:
-                posY = 400
+                posY = 1000
                 break
             case 3:
-                posY = -50
+                posY = 650
                 break
             case 4:
-                posY = -500
+                posY = 300
                 break
             case 5:
-                posY = -950
+                posY = -50
                 break
             case 6:
-                posY = -1400
+                posY = -400
+                break
+            case 7:
+                posY = -750
+                break
+            case 8:
+                posY = -1100
                 break
             default:
                 cc.log(`章节数错误！问题出现在${this.node.name}的${this.name}组件里！`)
@@ -91,6 +101,11 @@ cc.Class({
             cc.log(`按键数不能少于1个！问题出现在${this.node.name}的${this.name}组件里！`)
             return
         }
+
+        let newTag = cc.instantiate(this.tagTemps[chapterNum-1])
+        this.node.addChild(newTag)
+
+        newTag.setPosition(cc.p(-150,posY+100))
 
         let posX = -150
         for(let i = 1;i<=buttonNum;++i){
@@ -107,9 +122,15 @@ cc.Class({
     },
 
     start () {
-        this.setButtons(1,9)
-        this.setButtons(2,7)
-        this.setButtons(3,2)
+        this.setButtons(1,5)
+        this.setButtons(2,6)
+        this.setButtons(3,5)
+        this.setButtons(4,6)
+        this.setButtons(5,6)
+        this.setButtons(6,6)
+        this.setButtons(7,6)
+        this.setButtons(8,9)
+
     },
 
     // update (dt) {},
