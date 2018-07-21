@@ -21,88 +21,107 @@ cc.Class({
     },
 
     drawLevel: function (levelNum) {
-        // console.log('draw: ' + levelNum)
+
         //如果有 则清除
         for (i in this.node.children)
             this.node.children[i].destroy()
 
-        //加载关卡内容
+        //从level中加载关卡内容
         const levelContent = this.levelSetup.levels[levelNum]
         const obstacle = this.levelSetup.obstacle
-        let currentPosY = 200 //预设距离，留下200，或者此值在preSet中亦可
+
+        let currentPosY = 800 //预设距离，留下500，或者此值在preSet中亦可
 
         let self = this
+        let obswid, obshei, obsX
 
-        const drawRect = function (obj) {
-            const wid = obstacle.Rect[obj.type].width
-            const hei = obstacle.Rect[obj.type].height
-
-            let childPosX
-            switch (obj.align) {
+        const calculatePosX = function (alignMethod) {
+            switch (alignMethod) {
                 case "left":
-                    childPosX = wid / 2
-                    break
+                    return obswid / 2
                 case "right":
-                    childPosX = self.node.width - (wid / 2)
-                    break
+                    return self.node.width - (obswid / 2)
                 case "middle":
-                    childPosX = self.node.width / 2
-                    break
+                    return self.node.width / 2
                 case "float_left":
-                    childPosX = self.node.width / 4
-                    break
+                    return self.node.width * 5 / 16
                 case "float_right":
-                    childPosX = self.node.width * 3 / 4
-                    break
+                    return self.node.width * 11 / 16
                 case "rightMost":
-                    childPosX = self.node.width
-                    break
+                    return self.node.width - self.inputInfo.animationInfo.posXDebt
                 case "leftMost":
-                    childPosX = 0
-                    break
+                    return 0 + -self.inputInfo.animationInfo.posXDebt
                 default:
-                    console.log('wrong align: ' + obj.align)
+                    console.log('wrong align: ' + alignMethod)
                     return
             }
+        }
+
+        for (let obs of levelContent) {
+            //计算大小和位置信息
+            obswid = obstacle[obs.class][obs.type].width
+            obshei = obstacle[obs.class][obs.type].height
+            currentPosY += obs.distanceToPre * this.spacing //在Y位置画
+            obsX = calculatePosX(obs.align)
 
             //添加节点以及精灵
             let childnode = cc.instantiate(self.obstaclePrefab)
             self.node.addChild(childnode)
-            childnode.width = wid
-            childnode.height = hei
-            childnode.setPosition(cc.p(childPosX, currentPosY + hei / 2))
 
-            //添加动画属性
-            if (obj.animation) {
-                // console.log(obj.animation)
-                childnode.animation = obj.animation
-            }
+            //设置位置
+            childnode.width = obswid
+            childnode.height = obshei
+            childnode.setPosition(cc.p(obsX, currentPosY))// + obshei / 2))
+            childnode.originX = childnode.x
+            childnode.originY = childnode.y
 
             //设置碰撞
             let col = childnode.getComponents(cc.Collider)[0]
-            col.size.width = wid
-            col.size.height = hei
+            col.size.width = obswid
+            col.size.height = obshei
 
-            // currentPosY += hei
-        }
+            //特殊组件
+            if (obs.class == 'Whirl') {
+                switch (obs.type) {
+                    case "RotMidStrip":
+                        childnode.addComponent('midRotate')
+                        break
+                    case "RotSideStrip":
+                        childnode.addComponent('sideRotate')
+                        break
+                }
+                if (obs.rotateDir === 'L') childnode.rotateDirection = 1
+                else childnode.rotateDirection = -1
+            }
 
-        for (let obs of levelContent) {
-            currentPosY += obs.distanceToPre * this.spacing //在Y位置画
-            //根据位置画出障碍物
-            if (obs.class === 'Rect')
-                drawRect(obs)
-            if (obs.class === 'Whirl')
-                drawWhirl(obs)
+            //动画效果
+            if (obs.moveDown) {
+                childnode.addComponent('moveDown')
+                childnode.getComponent('moveDown').beginDis = obs.moveDown.distance
+                childnode.getComponent('moveDown').speedScale = obs.moveDown.speedScale
+            }
+            if (obs.moveLR) {
+                childnode.addComponent('moveLR')
+                // childnode.getComponent('moveLR').speedScale = obs.moveLR.speedScale
+                if (obs.align === 'left' || obs.align === 'float_left')
+                    childnode.getComponent('moveLR').speedScale = obs.moveLR.speedScale
+                else childnode.getComponent('moveLR').speedScale = -obs.moveLR.speedScale
+            }
+            if (obs.disappear) {
+                childnode.addComponent('disappear')
+                childnode.getComponent('disappear').beginDis = obs.disappear.distance
+                childnode.getComponent('disappear').speedDisappear = obs.disappear.speed
+            }
         }
 
         this.totalDistance = currentPosY
     },
 
     preSetValueLoad: function () {
-        let inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
-        this.rewindTime = inputInfo.gameTime.rewind
-        this.spacing = inputInfo.obstaclesInfo.spacing
-        this.speed = inputInfo.obstaclesInfo.speed
+        this.inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
+        this.rewindTime = this.inputInfo.gameTime.rewind
+        this.spacing = this.inputInfo.obstaclesInfo.spacing
+        this.speed = this.inputInfo.obstaclesInfo.speed
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -151,19 +170,18 @@ cc.Class({
                 if (this.node.y < this.originY) {
                     //继续
                     this.node.y += this.coverDistance / this.rewindTime
+                    this.node.rewindScale = this.coverDistance / this.rewindTime / this.speed
                 } else {
                     this.status = 'on'
                     this.coverDistance = 0
 
                     //恢复有动画节点在障碍物画布中的位置和旋转信息
                     for (let child of this.node.children) {
-                        if (child.animation) {
-                            child.x = child.originX
-                            child.y = child.originY
-                            child.rotation = 0
-                            child.opacity = 250
-                            child.animationMoved = 0
-                        }
+                        child.x = child.originX
+                        child.y = child.originY
+                        child.rotation = 0
+                        child.opacity = 250
+                        // child.animationMoved = 0
                     }
                 }
                 break

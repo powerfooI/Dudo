@@ -68,10 +68,10 @@ cc.Class({
                     break
                 case "rotate_L":
                 case "rotate_R":
-                    this.moveY = this.node.width - inputInfo.animationInfo.moveYDebt
+                    this.moveY = this.node.width// - inputInfo.animationInfo.moveYDebt
                     this.rotateSpeed = 180 * this.parentSpeed / this.moveY
                     this.rewindScale = inputInfo.animationInfo.rewindScale
-                    this.beginRotateDis = this.moveY * (3 + 1 / 2) + inputInfo.circleInfo.centerY + inputInfo.circleInfo.radius
+                    this.beginRotateDis = this.moveY * (3 + 1 / 2) + inputInfo.circleInfo.centerY// + inputInfo.circleInfo.radius
                     break
                 case "SideRotate_L":
                 case "SideRotate_R":
@@ -79,15 +79,23 @@ cc.Class({
                     this.rotateSpeed = 180 * this.parentSpeed / (3 * inputInfo.obstaclesInfo.spacing)
                     this.rewindScale = inputInfo.animationInfo.rewindScale
                     break
-                case "disapper":
-                    this.disapperDis = inputInfo.animationInfo.disapperDis
-                    this.speedDisapper = inputInfo.animationInfo.speedDisapper
+                case "disappear":
+                    this.disappearDis = inputInfo.animationInfo.disappearDis
+                    this.speedDisappear = inputInfo.animationInfo.speedDisappear
                     break
             }
 
             if (this.node.animation === 'moveRL') this.speedScale = -this.speedScale
             else if (this.node.animation === 'rotate_R') this.rotateSpeed = -this.rotateSpeed
-            else if (this.node.animation === 'SideRotate_R') this.rotateSpeed = -this.rotateSpeed
+            else if (this.node.animation === 'SideRotate_L'){
+                this.node.x -= inputInfo.animationInfo.posXDebt
+                this.node.originX = this.node.x
+            }
+            else if (this.node.animation === 'SideRotate_R') {
+                this.node.x += inputInfo.animationInfo.posXDebt
+                this.node.originX = this.node.x
+                this.rotateSpeed = -this.rotateSpeed
+            }
         }
     },
 
@@ -127,6 +135,7 @@ cc.Class({
                 break
             case "rotate_L":
             case "rotate_R":
+                console.log(this.node.parent.y + this.node.y - (-400))
                 if (dis < this.beginRotateDis) {
                     if (rewind && this.node.animationMoved > 0) {
                         this.node.rotation += this.rotateSpeed * this.rewindScale
@@ -149,15 +158,15 @@ cc.Class({
                     }
                 }
                 break
-            case "disapper":
-                if (dis < this.disapperDis) {
+            case "disappear":
+                if (dis < this.disappearDis) {
                     if (rewind && this.node.animationMoved > 0) {
-                        this.node.opacity += this.speedDisapper
-                        this.node.animationMoved -= this.speedDisapper
-                    } else if (!rewind && this.node.opacity - this.speedDisapper >= 0 && this.node.animationMoved < 255) {
+                        this.node.opacity += this.speedDisappear
+                        this.node.animationMoved -= this.speedDisappear
+                    } else if (!rewind && this.node.opacity - this.speedDisappear >= 0 && this.node.animationMoved < 255) {
                         // console.log(this.node.opacity)
-                        this.node.opacity -= this.speedDisapper
-                        this.node.animationMoved += this.speedDisapper
+                        this.node.opacity -= this.speedDisappear
+                        this.node.animationMoved += this.speedDisappear
                     }
                 }
                 break
@@ -171,7 +180,7 @@ cc.Class({
         // 障碍还没有出现，直接过
         // if (dis > (this.node.parent.height + this.node.width + this.node.height) / 2 ) return
         // 障碍已经过了，直接过
-        if (dis < -(this.node.parent.height + this.node.width + this.node.height) / 2) return
+        // if (dis < -(this.node.parent.height + this.node.width + this.node.height) / 2) return
 
         //障碍物在屏幕显示区域或有一部分出现在显示区域
         switch (this.node.parent.getComponent('obstacles').status) {

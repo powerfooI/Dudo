@@ -24,6 +24,19 @@ cc.Class({
         },
     },
 
+    resetParticle: function(particle) {
+        particle.startSize = 60
+        particle.endSize = 0
+        particle.startColor = particle.startColor.setA(20)
+        // console.log(particle.startColor)
+        particle.angleVar = 0
+        particle.duration = -1
+        // particle.speed = 300
+        particle.life = 1.2
+        particle.gravity.y = -200
+        particle.resetSystem()
+    },
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -114,8 +127,15 @@ cc.Class({
                     this.obstacles.getComponent("obstacles").status = 'rewind'
                     this.circle.getComponent("circle").status = 'rewind'
 
-                    // console.log(this.obstacles)
-                    // let obst = this.obstacles.getComponent("obstacles")
+                    // console.log(this.node.children)
+                    //重载粒子效果
+                    let Red = this.node.children[0].children[0]
+                    let Blue = this.node.children[0].children[1]
+                    Red.children[1].opacity = 255
+                    Blue.children[1].opacity = 255
+                    
+                    this.resetParticle(Red.children[0].getComponent(cc.ParticleSystem))
+                    this.resetParticle(Blue.children[0].getComponent(cc.ParticleSystem))
 
                 } else this.frameMark++
                     break

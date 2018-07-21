@@ -23,12 +23,17 @@ const animationInfo = {
     speedScaleLR: 1,
 
     //spin动画的属性
-    moveYDebt: 20,
-    rewindScale: 6,
+    // rewindScale: 4,
+
+    //rotate_L,R属性
+    moveYDebt: 40,
+
+    //SideRotate_L,R属性
+    posXDebt: 30,
 
     //消失动画的属性
-    disapperDis: 500,
-    speedDisapper: 5,
+    disappearDis: 500,
+    speedDisappear: 5,
 }
 
 const gameTime = {

@@ -290,11 +290,8 @@
     },
     "_enabled": true,
     "_custom": true,
-    "_file": {
-      "__uuid__": "b2687ac4-099e-403c-a192-ff477686f4f5"
-    },
     "_texture": {
-      "__uuid__": "134c178c-5f54-41db-86fd-81275409ba2f"
+      "__uuid__": "6919392e-fbe5-489b-9772-38b5036ef509"
     },
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
@@ -310,14 +307,14 @@
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 255
+      "a": 20
     },
     "_startColorVar": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
-      "a": 255
+      "a": 0
     },
     "_endColor": {
       "__type__": "cc.Color",
@@ -600,11 +597,8 @@
     },
     "_enabled": true,
     "_custom": true,
-    "_file": {
-      "__uuid__": "b2687ac4-099e-403c-a192-ff477686f4f5"
-    },
     "_texture": {
-      "__uuid__": "d15a51ee-6504-44c0-9504-ab288a09fa3b"
+      "__uuid__": "1d4eae8f-0d6f-4f64-baed-5d103ba97f53"
     },
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
@@ -620,14 +614,14 @@
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 255
+      "a": 20
     },
     "_startColorVar": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
-      "a": 255
+      "a": 0
     },
     "_endColor": {
       "__type__": "cc.Color",
@@ -912,7 +906,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -270,
+      "x": -300,
       "y": 600
     },
     "_skewX": 0,
@@ -1052,7 +1046,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -150,
+      "x": -200,
       "y": 600
     },
     "_skewX": 0,

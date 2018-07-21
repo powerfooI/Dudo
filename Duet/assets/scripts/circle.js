@@ -151,6 +151,7 @@ cc.Class({
                     this.updateDotPos()
                     this.frameMark++
                 } else {
+                    // console.log()
                     this.status = 'on'
                     this.rewindAnlge = 0
                     this.node.dispatchEvent(new cc.Event.EventCustom('CollisionRelive', true))
