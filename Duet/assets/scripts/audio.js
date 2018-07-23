@@ -22,15 +22,15 @@ cc.Class({
     },
 
     play: function () {
-        this.node._components[0].play()
+        this.node.getComponent(cc.AudioSource).play()
     },
     pause: function () {
-        this.node._components[0].pause()
+        this.node.getComponent(cc.AudioSource).pause()
         // this.audioSource.pause();
     },
 
     start () {
-        this.play()
+        
     },
 
     // update (dt) {},

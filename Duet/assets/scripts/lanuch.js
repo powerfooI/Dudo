@@ -4,17 +4,34 @@ cc.Class({
 
     properties: {
         display: cc.Sprite,
-        shutDownBnTemp:cc.Prefab
     },
 
     start () {
-        this._isShow = false;
         this.tex = new cc.Texture2D();
+        this.left = this.display.node.getChildByName('left')
+        this.right = this.display.node.getChildByName('right')
+        this.shutdown = this.display.node.getChildByName('shutdown')
+
+        this.left.active = false
+        this.right.active = false
+        this.shutdown.active = false
+    },
+
+    onClick () {
+        // 发消息给子域
+        wx.postMessage({
+            message: 'Show'
+        })
+
+        //1秒之后再显示按键
+        setTimeout(() => {
+            this.showButtons()
+        }, 1000);
 
         let kvDataList = []
         kvDataList.push({
             key: "score",
-            value: "99"
+            value: "111"
         });
 
         wx.setUserCloudStorage({
@@ -22,32 +39,56 @@ cc.Class({
         }) 
     },
 
-    onClick () {
-        this._isShow = !this._isShow;
-        // 发消息给子域
+    onClickHiden:function(){
         wx.postMessage({
-            message: this._isShow ? 'Show' : 'Hide'
+            message:'Hide'
         })
-
-        if(this._isShow){
-            let shutdownBn = cc.instantiate(this.shutDownBnTemp)
-            this.display.node.addChild(shutdownBn)
-            shutdownBn.setPosition(cc.p(0,1200))
-            let moveTo = cc.moveTo(0.7,0,-360)
-            shutdownBn.runAction(moveTo)
-            shutdownBn.on('click',this.onClick,this)
-        }
-        else{
-            this.display.node.children[0].destroy()
-        }
+        this.hideButtons()
     },
 
+    onClickLeft:function(){
+        wx.postMessage({
+            message:'Left'
+        })
+    },
+
+    onClickRight:function(){
+        wx.postMessage({
+            message:'Right'
+        })
+    },
+
+    onClickShutDown:function(){
+        wx.postMessage({
+            message:'Hide'
+        })
+        this.hideButtons()
+    },
+
+    hideButtons:function(){
+        this.right.active = false
+        this.shutdown.active = false
+        this.left.active = false
+        this.right.visible = false
+        this.shutdown.visible = false
+        this.left.visible = false
+    },
+
+    showButtons:function(){
+        this.right.active = true
+        this.shutdown.active = true
+        this.left.active = true
+        this.right.visible = true
+        this.shutdown.visible = true
+        this.left.visible = true
+    },
+
+    //实时刷新画布内容
     _updaetSubDomainCanvas () {
         if (!this.tex) {
             return;
         }
-        var openDataContext = wx.getOpenDataContext();
-        var sharedCanvas = openDataContext.canvas;
+        let sharedCanvas = wx.getOpenDataContext().canvas;
         this.tex.initWithElement(sharedCanvas);
         this.tex.handleLoadedTexture();
         this.display.spriteFrame = new cc.SpriteFrame(this.tex);
