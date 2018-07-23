@@ -1,0 +1,184 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "demo",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 15,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "tips": {
+        "comps": {
+          "cc.Label": {
+            "string": [
+              {
+                "frame": 0,
+                "value": "欢迎观看教程！"
+              },
+              {
+                "frame": 2.0166666666666666,
+                "value": "通过触摸屏幕两侧使两个小球旋转"
+              },
+              {
+                "frame": 2.033333333333333,
+                "value": "通过触摸屏幕两侧使两个小球旋转"
+              },
+              {
+                "frame": 7,
+                "value": "像这样"
+              },
+              {
+                "frame": 15,
+                "value": "在真正的关卡中，别让小球碰到白块，就能赢取胜利，加油！"
+              }
+            ]
+          }
+        }
+      },
+      "touch left": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 7,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 8.5,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 10,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 10.516666666666667,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 11.516666666666667,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 13,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "touch right": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 8.5,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 10,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 10.5,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 11.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "return": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 15,
+              "value": 255
+            }
+          ]
+        }
+      }
+    },
+    "comps": {
+      "introductionCircle": {
+        "roLeft": [
+          {
+            "frame": 0,
+            "value": false
+          },
+          {
+            "frame": 7.066666666666666,
+            "value": true
+          },
+          {
+            "frame": 8.516666666666667,
+            "value": false
+          },
+          {
+            "frame": 10.066666666666666,
+            "value": true
+          },
+          {
+            "frame": 10.5,
+            "value": false
+          },
+          {
+            "frame": 11.566666666666666,
+            "value": true
+          },
+          {
+            "frame": 13,
+            "value": false
+          }
+        ],
+        "roRight": [
+          {
+            "frame": 7,
+            "value": false
+          },
+          {
+            "frame": 8.566666666666666,
+            "value": true
+          },
+          {
+            "frame": 10,
+            "value": false
+          },
+          {
+            "frame": 10.55,
+            "value": true
+          },
+          {
+            "frame": 11.5,
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

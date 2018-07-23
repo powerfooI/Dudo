@@ -6,11 +6,14 @@ cc.Class({
         display: cc.Sprite,
     },
 
-    start () {
-        this.tex = new cc.Texture2D();
+    onLoad(){
         this.left = this.display.node.getChildByName('left')
         this.right = this.display.node.getChildByName('right')
         this.shutdown = this.display.node.getChildByName('shutdown')
+    },
+
+    start () {
+        this.tex = new cc.Texture2D();
 
         this.left.active = false
         this.right.active = false
