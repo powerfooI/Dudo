@@ -42,8 +42,7 @@ cc.Class({
         this.page.setButtons(4,6)
         this.page.setButtons(5,6)
         this.page.setButtons(6,6)
-        this.page.setButtons(7,6)
-        this.page.setButtons(8,9)
+        this.page.setButtons(7,9)
     },
 
     // update (dt) {},

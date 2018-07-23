@@ -66,7 +66,7 @@ cc.Class({
         //chapterNum章节数，buttonNum按键数(最大不超过9)
         let posY = this.node.height / 2 - 150
         
-        if(chapterNum>=1&&chapterNum<=8){
+        if(chapterNum>=1&&chapterNum<=7){
             posY -= (chapterNum-1)*350
         }
         else{
