@@ -12,25 +12,31 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-
+        // foo: {
+        //     // ATTRIBUTES:
+        //     default: null,        // The default value will be used only when the component attaching
+        //                           // to a node for the first time
+        //     type: cc.SpriteFrame, // optional, default is typeof default
+        //     serializable: true,   // optional, default is true
+        // },
+        // bar: {
+        //     get () {
+        //         return this._bar;
+        //     },
+        //     set (value) {
+        //         this._bar = value;
+        //     }
+        // },
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-
-    },
-
-    play: function () {
-        this.node._components[0].play()
-    },
-    pause: function () {
-        this.node._components[0].pause()
-        // this.audioSource.pause();
+        this.page = this.node.getComponent('page')
     },
 
     start () {
-        this.play()
+        this.page.setButtons(1,2)
     },
 
     // update (dt) {},

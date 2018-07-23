@@ -4,23 +4,23 @@
 
 const circleInfo = {
     radius: 220,
-    angularVelocity: 0.057,
+    angularVelocity: 0.057 * 1.5,
     centerY: -400,
 }
 
 const obstaclesInfo = {
     spacing: 440,
-    speed: 8,
+    speed: 8 * 1.5,
 }
 
 const animationInfo = {
     //movedown动画的一些属性
-    moveDownDis: 500,
-    speedScaleDown: 1.5,
+    // moveDownDis: 500,
+    // speedScaleDown: 1.5,
 
     //moveLR动画的一些属性
     // moveLRDis: 500,
-    speedScaleLR: 1,
+    // speedScaleLR: 1,
 
     //spin动画的属性
     // rewindScale: 4,
@@ -32,8 +32,9 @@ const animationInfo = {
     posXDebt: 30,
 
     //消失动画的属性
-    disappearDis: 500,
-    speedDisappear: 5,
+    // disappearDis: 500,
+    // speedDisappear: 5,
+    disappearDefaultSpeed: 4
 }
 
 const gameTime = {

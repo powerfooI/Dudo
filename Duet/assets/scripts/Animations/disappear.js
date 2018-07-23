@@ -33,7 +33,7 @@ cc.Class({
 
     onLoad() {
         this.beginDis = 1
-        this.speedDisappear = 5
+        // this.speedDisappear = 5
     },
 
     start() {
@@ -42,6 +42,7 @@ cc.Class({
         let inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
         this.spacing = inputInfo.obstaclesInfo.spacing
         this.centerY = inputInfo.circleInfo.centerY
+        this.speedDisappear = inputInfo.animationInfo.disappearDefaultSpeed * 1.5
     },
 
     update(dt) {

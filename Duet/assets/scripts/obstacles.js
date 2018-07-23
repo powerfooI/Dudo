@@ -50,7 +50,7 @@ cc.Class({
                 case "rightMost":
                     return self.node.width - self.inputInfo.animationInfo.posXDebt
                 case "leftMost":
-                    return 0 + -self.inputInfo.animationInfo.posXDebt
+                    return 0 + self.inputInfo.animationInfo.posXDebt
                 default:
                     console.log('wrong align: ' + alignMethod)
                     return
@@ -110,7 +110,7 @@ cc.Class({
             if (obs.disappear) {
                 childnode.addComponent('disappear')
                 childnode.getComponent('disappear').beginDis = obs.disappear.distance
-                childnode.getComponent('disappear').speedDisappear = obs.disappear.speed
+                // childnode.getComponent('disappear').speedDisappear = obs.disappear.speed
             }
         }
 
@@ -148,7 +148,7 @@ cc.Class({
         switch (this.status) {
             case "on":
                 //游戏正常运行
-                if (this.coverDistance > this.totalDistance + this.node.height) {
+                if (this.coverDistance > this.totalDistance + 1.5 * this.node.height) {
                     //更改为下一关,发送下一关事件
                     console.log('过关！')
 

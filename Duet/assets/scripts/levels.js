@@ -119,13 +119,13 @@ const levels = {
 			"class": "Rect",
 			"type": "BigSquare",
 			"align": "middle",
-			"distanceToPre": 1
+			"distanceToPre": 1.3
 		},
 		{
 			"class": "Rect",
 			"type": "strip",
 			"align": "right",
-			"distanceToPre": 1
+			"distanceToPre": 1.3
 		},
 		{
 			"class": "Rect",
@@ -182,7 +182,7 @@ const levels = {
 			"class": "Rect",
 			"type": "strip",
 			"align": "left",
-			"distanceToPre": 1.6
+			"distanceToPre": 2
 		},
 		{
 			"class": "Rect",
@@ -212,7 +212,7 @@ const levels = {
 			"class": "Rect",
 			"type": "strip",
 			"align": "left",
-			"distanceToPre": 1.6
+			"distanceToPre": 2
 		},
 		{
 			"class": "Rect",
@@ -297,7 +297,7 @@ const levels = {
 		}
 	],
 
-	Normal_1_5:[
+	Normal_1_5: [
 		{
 			"class": "Rect",
 			"type": "strip",
@@ -366,15 +366,14 @@ const levels = {
 		}
 	],
 
-	Normal_2_1:[
+	Normal_2_1: [
 		{
-			"class": "Whirl",
-			"type": "RotMidStrip",
-			"align": "middle",
-			"distanceToPre": 0,
-			"rotateDir": "L"
-		},
-	],
+		"class": "Whirl",
+		"type": "RotMidStrip",
+		"align": "middle",
+		"distanceToPre": 0,
+		"rotateDir": "L"
+	}, ],
 
 	Normal_2_2: [
 		{
@@ -520,7 +519,7 @@ const levels = {
 		}
 	],
 
-	Normal_2_5:[
+	Normal_2_5: [
 		{
 			"class": "Rect",
 			"type": "strip",
@@ -824,6 +823,5067 @@ const levels = {
 			"type": "strip",
 			"align": "right",
 			"distanceToPre": 0
+		}
+	],
+
+	Normal_3_3: [
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0,
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+	],
+
+	Normal_3_4: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_3_5: [
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		}
+	],
+
+	Normal_4_1: [
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 0,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "leftMost",
+			"distanceToPre": 3.2,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 3.2,
+			"rotateDir": "L"
+		}
+	],
+
+	Normal_4_2: [
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 0,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		}
+	],
+
+	Normal_4_3: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "leftMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		}
+	],
+
+	Normal_4_4: [
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.2,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		}
+	],
+
+	Normal_4_5: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 2,
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.7,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_4_6: [
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 0,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.3,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.3,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.3,
+			"rotateDir": "L"
+		}
+	],
+
+	Normal_5_1: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		}
+	],
+
+	Normal_5_2: [
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		}
+	],
+
+	Normal_5_3: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		}
+	],
+
+	Normal_5_4: [
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_5_5: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_5_6: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		}
+	],
+
+	Normal_6_1: [
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		}
+	],
+
+	Normal_6_2: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_6_3: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2.5,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1.7,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2.5,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_6_4: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 3.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.2
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1.5
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 2.5,
+			"rotateDir": "L",
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_6_5: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Whirl",
+			"type": "RotMidStrip",
+			"align": "middle",
+			"distanceToPre": 2.5,
+			"rotateDir": "R",
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "leftMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "rightMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "L"
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_6_6: [
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "leftMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 2
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		}
+	],
+
+	Normal_7_1: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		}
+	],
+
+	Normal_7_2: [
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		}
+	],
+
+	Normal_7_3: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		}
+	],
+
+	Normal_7_4: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 0.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 0.5,
+			}
+		}
+	],
+
+	Normal_7_5: [
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.9,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		}
+	],
+
+	Normal_7_6: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1.7,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.5,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.5,
+			}
+		}
+	],
+
+	Normal_7_7: [
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			moveLR: {
+				speedScale: 0.8
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 0.8
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 1.7,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 1.7,
+			}
+		}
+	],
+
+	Normal_7_8: [
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "leftMost",
+			"distanceToPre": 0,
+			"rotateDir": "R"
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1.5,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1.5,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Whirl",
+			"type": "RotSideStrip",
+			"align": "leftMost",
+			"distanceToPre": 1.5,
+			"rotateDir": "R",
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 1.5,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		}
+	],
+	
+	Normal_7_9: [
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			moveLR: {
+				speedScale: 1
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 1.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 0.3,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "left",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "right",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "middle",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "strip",
+			"align": "left",
+			"distanceToPre": 1,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "shortStrip",
+			"align": "right",
+			"distanceToPre": 0.7,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_left",
+			"distanceToPre": 2,
+			moveDown: {
+				distance: 2.3,
+				speedScale: 1.2,
+			},
+			"disappear": {
+				"distance": 2,
+			}
+		},
+		{
+			"class": "Rect",
+			"type": "MidSquare",
+			"align": "float_right",
+			"distanceToPre": 0,
+			"disappear": {
+				"distance": 2,
+			}
 		}
 	],
 }

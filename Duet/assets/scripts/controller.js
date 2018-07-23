@@ -35,7 +35,6 @@ cc.Class({
             this.currentStage = "game"
             this.currentLevel = event.detail.levelName
             cc.director.loadScene('game')
-            this.node.getComponent(cc.AudioSource).play()
         }, this)
     },
 
