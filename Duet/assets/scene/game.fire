@@ -63,19 +63,16 @@
       },
       {
         "__id__": 21
-      },
-      {
-        "__id__": 24
       }
     ],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 28
+        "__id__": 25
       },
       {
-        "__id__": 29
+        "__id__": 26
       }
     ],
     "_prefab": null,
@@ -863,7 +860,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "pauseBn",
+    "_name": "returnBn",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -877,146 +874,9 @@
       },
       {
         "__id__": 23
-      }
-    ],
-    "_prefab": null,
-    "_id": "a3p2OZKJNIlbElJN4N8ctm",
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_cascadeOpacityEnabled": true,
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 80,
-      "height": 80
-    },
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": 1,
-    "_scaleY": 1,
-    "_position": {
-      "__type__": "cc.Vec2",
-      "x": -300,
-      "y": 600
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_localZOrder": 0,
-    "_globalZOrder": 0,
-    "_opacityModifyRGB": false,
-    "groupIndex": 0
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 21
-    },
-    "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "a61f8e2d-ce94-44e0-9c17-f72c0ff9bd2e"
-    },
-    "_type": 1,
-    "_sizeMode": 0,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": null
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 21
-    },
-    "_enabled": true,
-    "transition": 2,
-    "pressedColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "hoverColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "duration": 0.1,
-    "zoomScale": 1.2,
-    "clickEvents": [],
-    "_N$interactable": true,
-    "_N$enableAutoGrayEffect": false,
-    "_N$normalColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$disabledColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$normalSprite": {
-      "__uuid__": "a61f8e2d-ce94-44e0-9c17-f72c0ff9bd2e"
-    },
-    "_N$pressedSprite": null,
-    "pressedSprite": null,
-    "_N$hoverSprite": null,
-    "hoverSprite": null,
-    "_N$disabledSprite": {
-      "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
-    },
-    "_N$target": {
-      "__id__": 21
-    }
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "returnBn",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_tag": -1,
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 25
       },
       {
-        "__id__": 26
-      },
-      {
-        "__id__": 27
+        "__id__": 24
       }
     ],
     "_prefab": null,
@@ -1046,7 +906,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -200,
+      "x": -250,
       "y": 600
     },
     "_skewX": 0,
@@ -1061,7 +921,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 24
+      "__id__": 21
     },
     "_enabled": true,
     "_spriteFrame": {
@@ -1087,7 +947,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 24
+      "__id__": 21
     },
     "_enabled": true,
     "transition": 2,
@@ -1135,7 +995,7 @@
       "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
     },
     "_N$target": {
-      "__id__": 24
+      "__id__": 21
     }
   },
   {
@@ -1143,7 +1003,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 24
+      "__id__": 21
     },
     "_enabled": true
   },
