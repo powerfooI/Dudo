@@ -18,7 +18,6 @@ cc.Class({
         choicePageSwitch:false,
         touchSwitch:false,
         accAngle:0,
-        animationSwitch:false
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -34,11 +33,13 @@ cc.Class({
     },
 
     onClickRanking: function(){
-        cc.log('这个按钮用来连接开放数据域，勿动！具体操作是将launch脚本放置在Canvas上，看WSY手机上图片的节点配置！')
+        this.choicePageSwitch = false
+        this.launch.onClick()
     },
 
     onClickStart: function(){
-        this.choicePageSwitch = !this.choicePageSwitch
+        this.launch.onClickShutDown()
+        this.choicePageSwitch = true
 
         // cc.director.loadScene("game", function(){
         //     cc.log('the game is started!')
@@ -46,6 +47,7 @@ cc.Class({
     },
 
     onClickIntro:function(){
+        this.launch.onClickShutDown()
         cc.director.loadScene('introduction',()=>{
             cc.director.preloadScene('startmenu')
         })
@@ -57,6 +59,7 @@ cc.Class({
         this.red = this.circle.getChildByName('Red')
         this.blue = this.circle.getChildByName('Blue')
         this.choicePage = this.node.getChildByName('choicePage')
+        this.launch = this.node.getComponent('launch')
         
         //初始化一些属性
         this.centerY = 100

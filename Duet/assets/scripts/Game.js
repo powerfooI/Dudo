@@ -134,13 +134,12 @@ cc.Class({
 
     onLoad() {
         //加载控制器
-        this.ctrlNode = cc.find('Controller Node')
-        this.controller = this.ctrlNode.getComponent('controller')
-
+        this.controller = cc.find('Controller Node').getComponent('controller')
 
         //预设值
         this.deadPauseTime = this.controller.preSetInfo.gameTime.deadPause
         this.passPauseTime = this.controller.preSetInfo.gameTime.passPause
+        this.refreshScoreTime = this.controller.preSetInfo.gameTime.refreshScore
 
         this.passHint.active = false
         this.gameEnd.active = false
@@ -189,7 +188,7 @@ cc.Class({
             //撞击之后的事件
             if (this.gameStatus === 'on') {
 
-                this.ctrlNode._components[2].play()
+                //在这里添加撞击后死亡的音效（如果有的话）
 
                 //如果是无尽模式则需要对生命特判
                 if (this.controller.currentLevel.split('_')[0] === 'Endless') {
@@ -207,16 +206,10 @@ cc.Class({
                         this.finalScore.active = true
                         this.finalScore.getComponent(cc.Label).string = "最终得分: " + finalScore.toString()
                         
-                        //将玩家无尽模式的分数上传微信云端
-
-                        let kvdataList = []
-                        kvdataList.push({
-                            key:'score',
-                            value:finalScore.toString()
-                        })
-
-                        wx.setUserCloudStorage({
-                            KVDataList:kvdataList
+                        //在这里上传得分，最终得分即为上面的finalScore变量
+                        wx.postMessage({
+                            message:'UpdateScore',
+                            score:finalScore.toString()
                         })
 
                         return
@@ -253,15 +246,13 @@ cc.Class({
     },
 
     update(dt) {
-        if (this.controller.currentLevel.split('_')[0] === 'Endless')
-            this.scoreHint.getComponent(cc.Label).string = parseInt(this.obstacles.getComponent('obstacles').currentScore)
+        // console.log(dt)
         switch (this.gameStatus) {
             case "deadPause":
                 if (this.frameMark >= this.deadPauseTime) {
                     this.gameStatus = 'rewind'
                     
                     //在这里添加撞击后死亡后rewind过程的音效（如果有的话）
-                    //音频合并，放在撞击后的声音里了
 
                     this.obstacles.getComponent("obstacles").status = 'rewind'
                     this.circle.getComponent("circle").status = 'rewind'
@@ -286,8 +277,18 @@ cc.Class({
                     this.circle.getComponent("circle").status = 'revolve'
                 } else this.frameMark++
                     break
+            case "on":
+                // console.log('on')
+                if (this.controller.currentLevel.split('_')[0] === 'Endless'){
+                    if (this.frameMark >= this.refreshScoreTime){
+                        this.scoreHint.getComponent(cc.Label).string = parseInt(this.obstacles.getComponent('obstacles').currentScore)
+                        this.frameMark = 0
+                    }
+                    else this.frameMark++
+                }
+                break
             default:
                 break
-        }
+            }
     },
 });

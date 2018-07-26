@@ -32,6 +32,7 @@ const gameTime = {
     passPause: 60,
     rewind: 60,
     revolve: 60,
+    refreshScore: 40,
 }
 
 const levelNums = [5,6,5,6,6,6,9]
