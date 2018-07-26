@@ -42,7 +42,9 @@ cc.Class({
         let inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
         this.spacing = inputInfo.obstaclesInfo.spacing
         this.centerY = inputInfo.circleInfo.centerY
-        this.speedDisappear = inputInfo.animationInfo.disappearDefaultSpeed * 1.5
+        this.speedDisappear = inputInfo.animationInfo.disappearDefaultSpeed * 
+            this.node.parent.parent.getComponent('Game').gamespeed
+        // console.log()
     },
 
     update(dt) {

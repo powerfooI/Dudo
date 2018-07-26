@@ -4,26 +4,16 @@
 
 const circleInfo = {
     radius: 220,
-    angularVelocity: 0.057 * 1.5,
+    angularVelocity: 0.057,
     centerY: -400,
 }
 
 const obstaclesInfo = {
     spacing: 440,
-    speed: 8 * 1.5,
+    speed: 8,
 }
 
 const animationInfo = {
-    //movedown动画的一些属性
-    // moveDownDis: 500,
-    // speedScaleDown: 1.5,
-
-    //moveLR动画的一些属性
-    // moveLRDis: 500,
-    // speedScaleLR: 1,
-
-    //spin动画的属性
-    // rewindScale: 4,
 
     //rotate_L,R属性
     moveYDebt: 40,
@@ -44,9 +34,22 @@ const gameTime = {
     revolve: 60,
 }
 
+const levelNums = [5,6,5,6,6,6,9]
+
+const levelSpeed = {
+	Normal_1_1: 0.7,
+	Normal_1_2: 0.7,
+	Default: [
+		0.9, 1.0, 1.2, 1.5, 1.5, 1.5, 1.7, 1.7, 1.7
+	]
+}
+
+
 module.exports = {
     circleInfo,
     gameTime,
     obstaclesInfo,
     animationInfo,
+    levelNums,
+    levelSpeed
 }

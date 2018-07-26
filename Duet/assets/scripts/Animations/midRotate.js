@@ -41,7 +41,8 @@ cc.Class({
 
         let inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
 
-        this.parentSpeed = inputInfo.obstaclesInfo.speed
+        // this.parentSpeed = inputInfo.obstaclesInfo.speed
+        this.parentSpeed = this.node.parent.getComponent('obstacles').speed
         this.centerY = inputInfo.circleInfo.centerY
 
         this.moveY = this.node.width - inputInfo.animationInfo.moveYDebt

@@ -5743,7 +5743,7 @@ const levels = {
 			"class": "Rect",
 			"type": "shortStrip",
 			"align": "left",
-			"distanceToPre": 1.7,
+			"distanceToPre": 2,
 			"disappear": {
 				"distance": 2,
 			}
@@ -5888,7 +5888,1023 @@ const levels = {
 	],
 }
 
+const endlessPatterns = [
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1.2,
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1.2,
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1.2,
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1.2,
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "L",
+			}
+		],
+		"addToNext": 0.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "R",
+			}
+		],
+		"addToNext": 0.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "L",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "R",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "L",
+			}
+		],
+		"addToNext": 0.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "R",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "L",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotMidStrip",
+				"align": "middle",
+				"distanceToPre": 1.5,
+				"rotateDir": "R",
+			}
+		],
+		"addToNext": 0.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "leftMost",
+				"distanceToPre": 1.5,
+				"rotateDir": "R",
+			}
+		],
+		"addToNext": 1.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "rightMost",
+				"distanceToPre": 1.5,
+				"rotateDir": "L",
+			}
+		],
+		"addToNext": 1.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "leftMost",
+				"distanceToPre": 1.5,
+				"rotateDir": "R",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "rightMost",
+				"distanceToPre": 3,
+				"rotateDir": "L",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "leftMost",
+				"distanceToPre": 3,
+				"rotateDir": "R",
+			}
+		],
+		"addToNext": 1.5
+	},
+	{
+		"content": [
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "rightMost",
+				"distanceToPre": 1.5,
+				"rotateDir": "L",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "leftMost",
+				"distanceToPre": 3,
+				"rotateDir": "R",
+			},
+			{
+				"class": "Whirl",
+				"type": "RotSideStrip",
+				"align": "rightMost",
+				"distanceToPre": 3,
+				"rotateDir": "L",
+			}
+		],
+		"addToNext": 1.5
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 2.2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 2.2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "right",
+				"distanceToPre": 0.7,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "left",
+				"distanceToPre": 0.7,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "right",
+				"distanceToPre": 0.7,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1.2,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "right",
+				"distanceToPre": 0.7,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "right",
+				"distanceToPre": 0.7,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1.2,
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "left",
+				"distanceToPre": 0.7,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "right",
+				"distanceToPre": 1.7,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 0.3,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "left",
+				"distanceToPre": 1.7,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 0.3,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 2,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 0,
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "shortStrip",
+				"align": "middle",
+				"distanceToPre": 2,
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 0,
+				"moveDown": {
+					"distance": 2.3,
+					"speedScale": 1.2
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "left",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "strip",
+				"align": "right",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 1
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1.2,
+				"moveLR": {
+					"speedScale": 0.8
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 0.8
+				},
+			}
+		],
+		"addToNext": 0
+	},
+	{
+		"content": [
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_right",
+				"distanceToPre": 1.2,
+				"moveLR": {
+					"speedScale": 0.8
+				},
+			},
+			{
+				"class": "Rect",
+				"type": "MidSquare",
+				"align": "float_left",
+				"distanceToPre": 1,
+				"moveLR": {
+					"speedScale": 0.8
+				},
+			}
+		],
+		"addToNext": 0
+	}
+]
+
+const constructEndless = function (){
+	function copyArray(arr){
+		let narr = []
+		for (let t of arr) {
+			narr.push(Object.assign({}, t))
+		}
+		return narr
+	}
+
+	let patternNum = Math.floor(Math.random() * 5 + 10)
+	let levelContent = []
+	let addNext = 0
+
+	//生成障碍
+	for (let i = 0; i < patternNum; i++) {
+		let index = Math.floor(Math.random() * endlessPatterns.length)
+		let cont = copyArray(endlessPatterns[index].content)
+		cont[0].distanceToPre += addNext
+		// console.log(index)
+		levelContent = levelContent.concat(cont)
+		addNext = endlessPatterns[index].addToNext
+	}
+
+	//添加disappear
+	for (i in levelContent){
+		switch (Math.floor(Math.random() * 10)) {
+			case 0:
+			case 1:
+			levelContent[i].disappear = {
+				"distance": 1,
+				"speed": 5
+			}
+			break
+			case 2:
+			case 3:
+			levelContent[i].disappear = {
+				"distance": 1.5,
+				"speed": 5
+			}
+			break
+			case 4:
+			levelContent[i].disappear = {
+				"distance": 2,
+				"speed": 5
+			}
+			break
+			default:
+			if (levelContent[i].disappear) delete levelContent[i].disappear
+			break
+		}
+	}
+	
+	//第一个距离减1
+	levelContent[0].distanceToPre -= 1
+	// console.log(levelContent.length)
+	return levelContent
+}
+
+// constructEndless()
+
 module.exports = {
 	obstacle,
-	levels
+	levels,
+	endlessPatterns,
+	constructEndless,	
+	// levelNums,
+	// levelSpeed
 }

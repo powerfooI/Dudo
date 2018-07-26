@@ -36,7 +36,7 @@ cc.Class({
     },
 
     start () {
-        this.page.setButtons(1,2)
+        this.page.setButtons(1,1)
     },
 
     // update (dt) {},

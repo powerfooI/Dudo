@@ -20,14 +20,11 @@ cc.Class({
         },
     },
 
-    drawLevel: function (levelNum) {
-
+    drawLevelContent: function(levelContent){
         //如果有 则清除
         for (i in this.node.children)
             this.node.children[i].destroy()
-
-        //从level中加载关卡内容
-        const levelContent = this.levelSetup.levels[levelNum]
+        
         const obstacle = this.levelSetup.obstacle
 
         let currentPosY = 800 //预设距离，留下500，或者此值在preSet中亦可
@@ -117,6 +114,25 @@ cc.Class({
         this.totalDistance = currentPosY
     },
 
+    drawEndlessLevel: function(){
+        let level = this.levelSetup.constructEndless()
+        // console.log(level)
+        this.drawLevelContent(level)
+    },
+
+    drawChallengeLevel: function(levelNum) {
+        let ls = levelNum.split('_')
+        const levelContent = this.levelSetup.levels["Normal_" + ls[1] + '_' + ls[2]]
+        this.drawLevelContent(levelContent)
+        // let level = 
+    },
+
+    drawNormalLevel: function (levelNum) {
+        //从level中加载关卡内容
+        const levelContent = this.levelSetup.levels[levelNum]
+        this.drawLevelContent(levelContent)
+    },
+
     preSetValueLoad: function () {
         this.inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
         this.rewindTime = this.inputInfo.gameTime.rewind
@@ -138,10 +154,12 @@ cc.Class({
 
         this.coverDistance = 0
         this.originY = this.node.y
+        this.currentScore = 0
     },
 
     start() {
-
+        // console.log(this.speed)
+        this.unitScore = this.speed / this.inputInfo.obstaclesInfo.speed
     },
 
     update(dt) {
@@ -159,6 +177,8 @@ cc.Class({
                 } else {
                     this.node.y -= this.speed
                     this.coverDistance += this.speed
+                    this.currentScore += this.unitScore
+                    // this.currentScore += this.node.parent.getComponent('Game').gamespeed
                 }
                 break
             case "off":
@@ -173,6 +193,7 @@ cc.Class({
                     this.node.rewindScale = this.coverDistance / this.rewindTime / this.speed
                 } else {
                     this.status = 'on'
+                    this.currentScore -= this.coverDistance / this.inputInfo.obstaclesInfo.speed
                     this.coverDistance = 0
 
                     //恢复有动画节点在障碍物画布中的位置和旋转信息

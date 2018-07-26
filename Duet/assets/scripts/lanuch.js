@@ -31,22 +31,15 @@ cc.Class({
             this.showButtons()
         }, 1000);
 
-        let kvDataList = []
-        kvDataList.push({
-            key: "score",
-            value: "111"
-        });
-
-        wx.setUserCloudStorage({
-            KVDataList: kvDataList
-        }) 
-    },
-
-    onClickHiden:function(){
-        wx.postMessage({
-            message:'Hide'
-        })
-        this.hideButtons()
+        // 测试wx子域功能
+        // let kvDataList = []
+        // kvDataList.push({
+        //     key: "score",
+        //     value: "111"
+        // });
+        // wx.setUserCloudStorage({
+        //     KVDataList: kvDataList
+        // }) 
     },
 
     onClickLeft:function(){
