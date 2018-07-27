@@ -34,11 +34,11 @@ cc.Class({
 
     onClickRanking: function(){
         this.choicePageSwitch = false
-        // this.launch.onClick()
+        this.launch.onClick()
     },
 
     onClickStart: function(){
-        // this.launch.onClickShutDown()
+        this.launch.onClickShutDown()
         this.choicePageSwitch = true
 
         // cc.director.loadScene("game", function(){
@@ -47,7 +47,7 @@ cc.Class({
     },
 
     onClickIntro:function(){
-        // this.launch.onClickShutDown()
+        this.launch.onClickShutDown()
         cc.director.loadScene('introduction',()=>{
             cc.director.preloadScene('startmenu')
         })

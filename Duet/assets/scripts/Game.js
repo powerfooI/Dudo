@@ -135,7 +135,7 @@ cc.Class({
     onLoad() {
         //加载控制器
         this.ctrlNode = cc.find('Controller Node')
-        this.controller = cc.find('Controller Node').getComponent('controller')
+        this.controller = this.ctrlNode.getComponent('controller')
 
         //预设值
         this.deadPauseTime = this.controller.preSetInfo.gameTime.deadPause
@@ -255,6 +255,7 @@ cc.Class({
                     this.gameStatus = 'rewind'
                     
                     //在这里添加撞击后死亡后rewind过程的音效（如果有的话）
+                    this.ctrlNode._components[3].play()
 
                     this.obstacles.getComponent("obstacles").status = 'rewind'
                     this.circle.getComponent("circle").status = 'rewind'
