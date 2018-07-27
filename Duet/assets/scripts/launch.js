@@ -15,11 +15,13 @@ cc.Class({
     start () {
         this.tex = new cc.Texture2D();
 
+        //按键初始化为不可用状态
         this.left.active = false
         this.right.active = false
         this.shutdown.active = false
     },
 
+    //点击排行榜
     onClick () {
         // 发消息给子域
         wx.postMessage({
@@ -31,29 +33,23 @@ cc.Class({
             this.showButtons()
         }, 1000);
 
-        // 测试wx子域功能
-        // let kvDataList = []
-        // kvDataList.push({
-        //     key: "score",
-        //     value: "111"
-        // });
-        // wx.setUserCloudStorage({
-        //     KVDataList: kvDataList
-        // }) 
     },
 
+    //点击上一页按钮
     onClickLeft:function(){
         wx.postMessage({
             message:'Left'
         })
     },
 
+    //点击下一页按钮
     onClickRight:function(){
         wx.postMessage({
             message:'Right'
         })
     },
 
+    //点击关闭按钮
     onClickShutDown:function(){
         wx.postMessage({
             message:'Hide'
@@ -61,6 +57,7 @@ cc.Class({
         this.hideButtons()
     },
 
+    //隐藏上一页下一页和关闭按钮
     hideButtons:function(){
         this.right.active = false
         this.shutdown.active = false
@@ -70,6 +67,7 @@ cc.Class({
         this.left.visible = false
     },
 
+    //显示上一页下一页和关闭按钮
     showButtons:function(){
         this.right.active = true
         this.shutdown.active = true

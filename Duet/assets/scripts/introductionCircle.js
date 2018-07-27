@@ -1,13 +1,4 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+//教程中的两个球及中心圆组件
 cc.Class({
     extends: cc.Component,
 
@@ -47,8 +38,7 @@ cc.Class({
         this.radius = inputInfo.circleInfo.radius
         this.unitAngle = inputInfo.circleInfo.angularVelocity
         this.centerY = inputInfo.circleInfo.centerY
-        // this.deadPauseTime = inputInfo.gameTime.deadPause
-        // this.passPause = inputInfo.gameTime.passPause
+
         this.rewindTime = inputInfo.gameTime.rewind
         this.revolveTime = inputInfo.gameTime.revolve
     },
@@ -68,11 +58,6 @@ cc.Class({
 
         //绘制图形
         this.drawCenterCircle()
-    },
-
-    //start函数在onload之后调用
-    start() {
-
     },
 
     onClickReturn:function(){

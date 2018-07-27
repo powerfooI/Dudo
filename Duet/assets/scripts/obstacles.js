@@ -1,12 +1,3 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
     extends: cc.Component,
@@ -20,8 +11,9 @@ cc.Class({
         },
     },
 
+    //绘制关卡内容
     drawLevelContent: function(levelContent){
-        //如果有 则清除
+        //如果已经有障碍物则清除
         for (i in this.node.children)
             this.node.children[i].destroy()
         
@@ -32,6 +24,7 @@ cc.Class({
         let self = this
         let obswid, obshei, obsX
 
+        //根据障碍物的align，计算x坐标
         const calculatePosX = function (alignMethod) {
             switch (alignMethod) {
                 case "left":
@@ -68,7 +61,7 @@ cc.Class({
             //设置位置
             childnode.width = obswid
             childnode.height = obshei
-            childnode.setPosition(cc.p(obsX, currentPosY))// + obshei / 2))
+            childnode.setPosition(cc.p(obsX, currentPosY))
             childnode.originX = childnode.x
             childnode.originY = childnode.y
 
@@ -99,7 +92,6 @@ cc.Class({
             }
             if (obs.moveLR) {
                 childnode.addComponent('moveLR')
-                // childnode.getComponent('moveLR').speedScale = obs.moveLR.speedScale
                 if (obs.align === 'left' || obs.align === 'float_left')
                     childnode.getComponent('moveLR').speedScale = obs.moveLR.speedScale
                 else childnode.getComponent('moveLR').speedScale = -obs.moveLR.speedScale
@@ -107,7 +99,6 @@ cc.Class({
             if (obs.disappear) {
                 childnode.addComponent('disappear')
                 childnode.getComponent('disappear').beginDis = obs.disappear.distance
-                // childnode.getComponent('disappear').speedDisappear = obs.disappear.speed
             }
         }
 
@@ -116,7 +107,7 @@ cc.Class({
 
     drawEndlessLevel: function(){
         let level = this.levelSetup.constructEndless()
-        // console.log(level)
+
         this.drawLevelContent(level)
     },
 
@@ -124,7 +115,6 @@ cc.Class({
         let ls = levelNum.split('_')
         const levelContent = this.levelSetup.levels["Normal_" + ls[1] + '_' + ls[2]]
         this.drawLevelContent(levelContent)
-        // let level = 
     },
 
     drawNormalLevel: function (levelNum) {
@@ -149,7 +139,6 @@ cc.Class({
         //预加载
         this.preSetValueLoad()
 
-        // this.levelSetup = require('scripts/levels.js')
         this.levelSetup = require('levels')
 
         this.coverDistance = 0
@@ -158,7 +147,7 @@ cc.Class({
     },
 
     start() {
-        // console.log(this.speed)
+        //计算单位分数
         this.unitScore = this.speed / this.inputInfo.obstaclesInfo.speed
     },
 
@@ -178,7 +167,6 @@ cc.Class({
                     this.node.y -= this.speed
                     this.coverDistance += this.speed
                     this.currentScore += this.unitScore
-                    // this.currentScore += this.node.parent.getComponent('Game').gamespeed
                 }
                 break
             case "off":
@@ -202,7 +190,6 @@ cc.Class({
                         child.y = child.originY
                         child.rotation = 0
                         child.opacity = 250
-                        // child.animationMoved = 0
                     }
                 }
                 break

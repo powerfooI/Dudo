@@ -1,12 +1,4 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
+//选择页面的按钮组件
 
 cc.Class({
     extends: cc.Component,
@@ -29,7 +21,8 @@ cc.Class({
     init:function(){
         
     },
-
+    
+    //点击之后发送页面名_章节号_按键号给controller
     registerClickEvent:function(){
         this.node.on('click',function(event){
             let choiceButtonClickEvent = new cc.Event.EventCustom('choiceButtonClickEvent',true)

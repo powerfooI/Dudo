@@ -1,12 +1,3 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
     extends: cc.Component,
@@ -45,6 +36,7 @@ cc.Class({
         }
     },
 
+    //重设粒子效果，即关闭爆炸特效
     resetParticle: function(particle) {
         particle.startSize = 60
         particle.endSize = 0
@@ -58,6 +50,7 @@ cc.Class({
         particle.resetSystem()
     },
 
+    //计算需要旋转的角度，进行rewind和revolve
     calculateAngle: function(method) {
         let circle = this.circle.getComponent("circle")
         circle.frameMark = 0
@@ -68,6 +61,7 @@ cc.Class({
         else circle[method] = tempAngle
     },
 
+    //关卡速度保存在预设文件中，从中获取游戏速度
     getNormalLevelSpeed: function(){
         let level = this.controller.currentLevel.split('_')[2]
         if (this.controller.preSetInfo.levelSpeed[this.controller.currentLevel])
@@ -77,6 +71,7 @@ cc.Class({
         }
     },
 
+    //加载下一关，更改目前所在关卡这一值
     loadNextLevel: function(){
         if (this.controller.currentLevel.split('_')[0] !== 'Endless') {
             //不是endless，计算下一关
@@ -102,8 +97,8 @@ cc.Class({
         this.loadCurrentLevel()
     },
 
+    //加载关卡
     loadCurrentLevel: function(){
-        // console.log()
         switch(this.controller.currentLevel.split('_')[0]){
             case "Normal":
                 this.scoreHint.active = false
@@ -112,7 +107,6 @@ cc.Class({
                 this.gamespeed = this.getNormalLevelSpeed()
             break
             case "Endless":
-                // console.log(this.scoreHint)
                 this.obstacles.getComponent("obstacles").drawEndlessLevel()
                 this.gamespeed = 1.5
             break
@@ -196,11 +190,9 @@ cc.Class({
                 if (this.controller.currentLevel.split('_')[0] === 'Endless') {
                     //更新生命
                     this.currentLife--
-                    // console.log(this.lifeHint.children)
                     this.lifeHint.children[this.currentLife].active = true
                     this.lifeHint.children[this.currentLife + 3].active = false
                     if (this.currentLife === 0) {
-                        // console.log('GG')
                         let finalScore = parseInt(this.obstacles.getComponent('obstacles').currentScore)
                         this.obstacles.getComponent("obstacles").status = 'pause'
                         this.circle.getComponent("circle").status = 'pause'
@@ -248,7 +240,6 @@ cc.Class({
     },
 
     update(dt) {
-        // console.log(dt)
         switch (this.gameStatus) {
             case "deadPause":
                 if (this.frameMark >= this.deadPauseTime) {
@@ -260,7 +251,6 @@ cc.Class({
                     this.obstacles.getComponent("obstacles").status = 'rewind'
                     this.circle.getComponent("circle").status = 'rewind'
 
-                    // console.log(this.node.children)
                     //重载粒子效果
                     let Red = this.node.children[0].children[0]
                     let Blue = this.node.children[0].children[1]
@@ -281,7 +271,6 @@ cc.Class({
                 } else this.frameMark++
                     break
             case "on":
-                // console.log('on')
                 if (this.controller.currentLevel.split('_')[0] === 'Endless'){
                     if (this.frameMark >= this.refreshScoreTime){
                         this.scoreHint.getComponent(cc.Label).string = parseInt(this.obstacles.getComponent('obstacles').currentScore)

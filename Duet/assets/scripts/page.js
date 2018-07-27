@@ -1,13 +1,4 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+//选择页面的总组件，使单个页面支持上下滑动
 cc.Class({
     extends: cc.Component,
 
@@ -27,7 +18,6 @@ cc.Class({
     onLoad () {
         this.init()
         this.registerEventHandler()
-
     },
 
     init:function(){
@@ -38,7 +28,8 @@ cc.Class({
     },
 
     registerEventHandler:function(){
-        //触屏开始和结束事件，不能传播到父节点
+
+        //触屏开始和结束事件，不能传播到父节点，否则会让选择页面关闭
         this.node.on('touchstart',function(event){
             event.stopPropagation()
         },this)
@@ -63,6 +54,7 @@ cc.Class({
     },
 
     setButtons:function(chapterNum,buttonNum){
+        
         //chapterNum章节数，buttonNum按键数(最大不超过9)
         let posY = this.node.height / 2 - 150
         

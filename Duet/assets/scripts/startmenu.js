@@ -1,13 +1,4 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+//主菜单使用的组件
 cc.Class({
     extends: cc.Component,
 
@@ -32,20 +23,19 @@ cc.Class({
         cc.director.preloadScene("game");
     },
 
+    //点击排行榜按钮
     onClickRanking: function(){
         this.choicePageSwitch = false
         this.launch.onClick()
     },
 
+    //点击三角形开始按钮
     onClickStart: function(){
         this.launch.onClickShutDown()
         this.choicePageSwitch = true
-
-        // cc.director.loadScene("game", function(){
-        //     cc.log('the game is started!')
-        // })
     },
 
+    //点击教程按钮
     onClickIntro:function(){
         this.launch.onClickShutDown()
         cc.director.loadScene('introduction',()=>{
@@ -53,6 +43,7 @@ cc.Class({
         })
     },
     
+    //初始化主页面
     init:function(){
         //绑定一些节点
         this.circle = this.node.getChildByName('circle')
@@ -71,8 +62,7 @@ cc.Class({
         this.blue.y = this.centerY
     },
 
-
-
+    //注册一些事件
     registerEventHandler:function() {
         this.node.getChildByName('startBn').on('click',this.onClickStart,this)  
         this.node.getChildByName('rankingBn').on('click',this.onClickRanking,this)

@@ -1,13 +1,4 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+//选择页指示器组件
 cc.Class({
     extends: cc.Component,
 
@@ -28,10 +19,7 @@ cc.Class({
         this.refresh()
     },
 
-    start () {
-
-    },
-
+    //在当前页面标签下面加入红色下划线，并降低该标签的透明度
     refresh:function(){
         for(let i = 0;i<this.labels.length;++i){
             if(i===this.currentIndex){
@@ -51,10 +39,12 @@ cc.Class({
         }
     },
 
+    //获取pageview组件当前所在的页面下标
     nowIndex:function(){
         return this.pageView.getCurrentPageIndex()
     },
 
+    //实时刷新指示器的显示
     update (dt) {
         this.currentIndex = this.nowIndex()
         if(this.currentIndex!=this.lastIndex){

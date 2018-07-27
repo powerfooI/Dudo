@@ -1,21 +1,8 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+// 此文件为游戏中央圈的组件以及两个点
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        // angle: 0,
-        // radius: 190,
-        // unitAngle: 0.07,
-        // centerY: -440,
     },
 
     resetPostion: function () {
@@ -52,10 +39,8 @@ cc.Class({
             switch (event.keyCode) {
                 case cc.KEY.a:
                     self.roLeft = false;
-                    // self.roRight = false;
                     break;
                 case cc.KEY.d:
-                    // self.roLeft = false;
                     self.roRight = false;
                     break;
             }
@@ -75,9 +60,7 @@ cc.Class({
         this.node.on('touchend', function (event) {
             if (event.getLocationX() < self.absolute_centerX) {
                 self.roLeft = false;
-                // self.roRight = false;
             } else {
-                // self.roLeft = false;
                 self.roRight = false;
             }
         });
@@ -101,8 +84,7 @@ cc.Class({
         this.radius = inputInfo.circleInfo.radius
         this.unitAngle = inputInfo.circleInfo.angularVelocity
         this.centerY = inputInfo.circleInfo.centerY
-        // this.deadPauseTime = inputInfo.gameTime.deadPause
-        // this.passPause = inputInfo.gameTime.passPause
+
         this.rewindTime = inputInfo.gameTime.rewind
         this.revolveTime = inputInfo.gameTime.revolve
     },

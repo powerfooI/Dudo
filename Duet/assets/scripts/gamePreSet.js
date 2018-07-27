@@ -1,3 +1,5 @@
+//此文件中
+
 //固定一个speed,radius
 //spaceing = 2 * rauius
 //angularVelocity = Math.PI * speed / spacing
@@ -22,8 +24,6 @@ const animationInfo = {
     posXDebt: 30,
 
     //消失动画的属性
-    // disappearDis: 500,
-    // speedDisappear: 5,
     disappearDefaultSpeed: 4
 }
 
