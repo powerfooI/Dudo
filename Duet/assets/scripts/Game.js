@@ -134,6 +134,7 @@ cc.Class({
 
     onLoad() {
         //加载控制器
+        this.ctrlNode = cc.find('Controller Node')
         this.controller = cc.find('Controller Node').getComponent('controller')
 
         //预设值
@@ -189,6 +190,7 @@ cc.Class({
             if (this.gameStatus === 'on') {
 
                 //在这里添加撞击后死亡的音效（如果有的话）
+                this.ctrlNode._components[2].play()
 
                 //如果是无尽模式则需要对生命特判
                 if (this.controller.currentLevel.split('_')[0] === 'Endless') {
