@@ -1,0 +1,43 @@
+.title{
+    display: block;
+    /* font-size: 30px; */
+    font-weight: bold;
+    text-align: center;
+}
+
+.choosePage{
+    /* width: 20%; */
+    text-align: center;
+    display: block;
+    height: 200px;
+}
+
+.chooseBtn{
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin-top: 10px; 
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.chooseBtn_ani{
+    display: none;
+    width: 50px;
+    height: 30px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin-top: 10px; 
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.chooseBtn::selection {
+    background-color: #87CEFA;
+}
+
+.input{
+    width: 400px;
+    height: 34px;
+}

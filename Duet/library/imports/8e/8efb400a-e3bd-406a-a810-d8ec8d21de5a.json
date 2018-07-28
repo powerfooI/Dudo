@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buttonboarder",
+    "texture": "5c0765f5-644e-4121-b419-46258d5b8b5c",
+    "atlas": "",
+    "rect": [
+      11,
+      11,
+      180,
+      180
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      200,
+      200
+    ]
+  }
+}

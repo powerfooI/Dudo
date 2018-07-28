@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "underline",
+    "texture": "7b551bd5-a70a-481b-8565-db55f3141d59",
+    "atlas": "",
+    "rect": [
+      74,
+      400,
+      629,
+      12
+    ],
+    "offset": [
+      -11.5,
+      -156
+    ],
+    "originalSize": [
+      800,
+      500
+    ]
+  }
+}

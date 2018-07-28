@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Duet Game Level disigner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Level Designer</h1>
+    <div class="choosePage" id="config">
+        <h2>选项</h2>
+        <button onclick="clickEvent(this)" class="chooseBtn">新建</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">完成</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">导出</button>
+    </div>
+    <div class="choosePage" id="class">
+        <h2>种类选择</h2>
+        <button onclick="clickEvent(this)" class="chooseBtn">靠左长条</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">靠右长条</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">中央大方块</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">偏左小方块</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">偏右小方块</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">中心小方块</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">左边短条</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">右边短条</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">中央短条</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">中央旋转——左</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">中央旋转——右</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">边旋转——左</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">边旋转——右</button>
+    </div>
+    <div class="choosePage" id="distanceToPre">
+        <h2>distanceToPre</h2>
+        <input class="input" type="text" name="" id="inputDisToPre" />
+        <button style="padding-left: 10px;" onclick="clickEvent(this)" class="chooseBtn">OK</button>
+    </div>
+    <div class="choosePage" id="chooseAnimiation">
+        <button onclick="clickEvent(this)" class="chooseBtn">moveDown</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">moveLR</button>
+        <button onclick="clickEvent(this)" class="chooseBtn">disappear</button>
+    </div>
+    <div class="choosePage" id="inputSection">
+        <h2>动画数值选项</h2>
+        <input class="input" type="text" name="" id="inputdistance" style="display: none;"/>
+        <input class="input" type="text" name="" id="inputSpeed" style="display: none;"/> 
+        <button style="padding-left: 10px;" onclick="clickEvent(this)" class="chooseBtn" style="display: none;" >OK</button>
+    </div>
+    <!-- <div class="choosePage" id="disAnimation">
+        <h2>消失动画</h2>
+        <input class="input" type="text" name="" id="inputdistance_2" />
+        <input class="input" type="text" name="" id="inputSpeed_2" />
+        <button style="padding-left: 10px;" onclick="clickEvent(this)" class="chooseBtn">OK</button>
+    </div> -->
+
+    <textarea id="contents" rows="10" cols="10" style="height:0;width:0;opacity: 0;"></textarea>
+</body>
+
+</html>

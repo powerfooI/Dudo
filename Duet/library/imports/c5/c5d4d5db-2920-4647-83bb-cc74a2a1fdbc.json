@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "endless",
+    "texture": "b1c8db3f-d1bb-4077-8975-0bd14923abd9",
+    "atlas": "",
+    "rect": [
+      120,
+      147,
+      571,
+      263
+    ],
+    "offset": [
+      5.5,
+      -28.5
+    ],
+    "originalSize": [
+      800,
+      500
+    ]
+  }
+}

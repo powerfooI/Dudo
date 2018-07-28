@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "black_play",
+    "texture": "f37bb7db-0b76-4767-af22-320259ee5346",
+    "atlas": "",
+    "rect": [
+      17,
+      0,
+      166,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ]
+  }
+}

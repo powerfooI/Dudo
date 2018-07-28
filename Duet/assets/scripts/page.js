@@ -59,7 +59,7 @@ cc.Class({
         let posY = this.node.height / 2 - 150
         
         if(chapterNum>=1&&chapterNum<=7){
-            posY -= (chapterNum-1)*350
+            posY -= (chapterNum-1)*350 
         }
         else{
             cc.log(`章节数错误！问题出现在${this.node.name}的${this.name}组件里！`)
@@ -83,7 +83,7 @@ cc.Class({
             newBn.setPosition(cc.p(posX,posY))
             if(i%3===0){
                 posX = -150
-                posY -= 120 //每个章节按键群的纵向间隔
+                posY -= 110 //每行按键群的纵向间隔
             }
             else posX += 150
         }

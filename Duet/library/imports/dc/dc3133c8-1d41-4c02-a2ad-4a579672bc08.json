@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "introBn",
+    "texture": "167d42a0-56c3-4b2c-9528-b17d11136a91",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      196,
+      271
+    ],
+    "offset": [
+      -2,
+      3
+    ],
+    "originalSize": [
+      200,
+      285
+    ]
+  }
+}

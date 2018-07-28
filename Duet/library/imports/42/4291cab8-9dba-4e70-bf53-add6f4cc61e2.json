@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "passLevel",
+    "texture": "08dbff6f-61fb-4efe-acc2-ea30076b247a",
+    "atlas": "",
+    "rect": [
+      17,
+      9,
+      165,
+      63
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      200,
+      80
+    ]
+  }
+}
