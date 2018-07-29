@@ -4,6 +4,7 @@ cc.Class({
 
     properties: {
         display: cc.Sprite,
+        rankingSwitch:false
     },
 
     onLoad(){
@@ -24,15 +25,16 @@ cc.Class({
     //点击排行榜
     onClick () {
         // 发消息给子域
-        wx.postMessage({
-            message: 'Show'
-        })
-
-        //1秒之后再显示按键
-        setTimeout(() => {
+        if(!this.rankingSwitch){
+            this.rankingSwitch = true
+            wx.postMessage({
+                message: 'Show'
+            })
+        }
+        //1秒之后显示按键
+        setTimeout(()=>{
             this.showButtons()
-        }, 1000);
-
+        },1000)
     },
 
     //点击上一页按钮
@@ -51,6 +53,7 @@ cc.Class({
 
     //点击关闭按钮
     onClickShutDown:function(){
+        this.rankingSwitch = false
         wx.postMessage({
             message:'Hide'
         })

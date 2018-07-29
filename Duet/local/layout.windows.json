@@ -47,7 +47,7 @@
                     ],
                     "height": 454,
                     "type": "panel",
-                    "width": 818.25
+                    "width": 817.984375
                   },
                   {
                     "active": 0,
@@ -56,7 +56,7 @@
                     ],
                     "height": 454,
                     "type": "panel",
-                    "width": 311.71875
+                    "width": 312
                   }
                 ],
                 "height": 454,
@@ -103,8 +103,8 @@
   },
   "panels": {
     "builder": {
-      "x": 417,
-      "y": 0,
+      "x": 630,
+      "y": 28,
       "width": 516,
       "height": 691
     },

@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'ca816jeLYZD4qfw5qbhyUcE', 'launch');
-// scripts/launch.js
+// scripts/Menu/launch.js
 
 'use strict';
 
@@ -8,7 +8,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        display: cc.Sprite
+        display: cc.Sprite,
+        rankingSwitch: false
     },
 
     onLoad: function onLoad() {
@@ -31,11 +32,13 @@ cc.Class({
         var _this = this;
 
         // 发消息给子域
-        wx.postMessage({
-            message: 'Show'
-        });
-
-        //1秒之后再显示按键
+        if (!this.rankingSwitch) {
+            this.rankingSwitch = true;
+            wx.postMessage({
+                message: 'Show'
+            });
+        }
+        //1秒之后显示按键
         setTimeout(function () {
             _this.showButtons();
         }, 1000);
@@ -58,6 +61,7 @@ cc.Class({
 
     //点击关闭按钮
     onClickShutDown: function onClickShutDown() {
+        this.rankingSwitch = false;
         wx.postMessage({
             message: 'Hide'
         });
