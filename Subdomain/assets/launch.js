@@ -18,7 +18,6 @@ cc.Class({
                     wx.getFriendCloudStorage({
                         keyList: ['score'],
                         success: res => {
-                            console.log('seccessfully get the data of friends!')
                             this._show();
                             this.data = res.data
                             this.maxPage = parseInt((this.data.length - 1) / 6)
@@ -58,7 +57,7 @@ cc.Class({
                     wx.getUserCloudStorage({
                         keyList:['score'],
                         success:res=>{
-                            if(parseInt(data.score)>parseInt(res.KVDataList[0].value)){
+                            if(res.KVDataList.length === 0||parseInt(data.score)>parseInt(res.KVDataList[0].value)){
                                 let kvdataList = []
                                 kvdataList.push({
                                     key:'score',

@@ -1,79 +1,148 @@
-2018-07-27T08:44:21.339Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-27T08:44:21.354Z - normal: checking language setting...
-2018-07-27T08:44:21.354Z - normal: Language: zh
-2018-07-27T08:44:23.864Z - success: protocol editor-framework registered
-2018-07-27T08:44:23.864Z - success: protocol app registered
-2018-07-27T08:44:23.864Z - success: protocol theme registered
-2018-07-27T08:44:23.864Z - success: protocol packages registered
-2018-07-27T08:44:23.864Z - success: protocol unpack registerred
-2018-07-27T08:44:23.864Z - success: protocol disable-commonjs registerred
-2018-07-27T08:44:24.026Z - normal: connected!
-2018-07-27T08:44:24.031Z - normal: Check project D:\demo-wechat-subdomain-master\wx-open-data-project
-2018-07-27T08:44:24.052Z - normal: Initializing Cocos2d
-2018-07-27T08:44:24.411Z - normal: Initializing Asset Database
-2018-07-27T08:44:24.478Z - success: protocol uuid registerred
-2018-07-27T08:44:24.478Z - success: protocol db registerred
-2018-07-27T08:44:24.478Z - success: protocol thumbnail registerred
-2018-07-27T08:44:24.478Z - normal: Loading editor/builtin packages
-2018-07-27T08:44:24.515Z - success: anysdk loaded
-2018-07-27T08:44:24.734Z - success: assets loaded
-2018-07-27T08:44:24.738Z - success: builder loaded
-2018-07-27T08:44:24.742Z - success: cocos-analytics loaded
-2018-07-27T08:44:24.747Z - success: console loaded
-2018-07-27T08:44:24.817Z - success: fb-instant-games loaded
-2018-07-27T08:44:24.822Z - success: hierarchy loaded
-2018-07-27T08:44:24.826Z - success: inspector loaded
-2018-07-27T08:44:24.827Z - success: keystore loaded
-2018-07-27T08:44:24.831Z - success: node-library loaded
-2018-07-27T08:44:24.833Z - success: package-asset loaded
-2018-07-27T08:44:24.837Z - success: preferences loaded
-2018-07-27T08:44:24.839Z - success: project-exporter loaded
-2018-07-27T08:44:24.866Z - success: project-importer loaded
-2018-07-27T08:44:24.869Z - success: project-settings loaded
-2018-07-27T08:44:24.874Z - success: ui-kit loaded
-2018-07-27T08:44:24.877Z - success: ui-grid loaded
-2018-07-27T08:44:24.883Z - success: scene loaded
-2018-07-27T08:44:24.884Z - success: sprite-editor loaded
-2018-07-27T08:44:24.890Z - success: store loaded
-2018-07-27T08:44:24.897Z - success: timeline loaded
-2018-07-27T08:44:24.897Z - normal: Loading builtin packages
-2018-07-27T08:44:24.919Z - success: asset-db-debugger loaded
-2018-07-27T08:44:24.947Z - success: code-editor loaded
-2018-07-27T08:44:24.954Z - success: color-picker loaded
-2018-07-27T08:44:24.973Z - success: package-manager loaded
-2018-07-27T08:44:24.982Z - success: qqplay-adapter loaded
-2018-07-27T08:44:25.232Z - success: sdkbox loaded
-2018-07-27T08:44:25.259Z - success: tester loaded
-2018-07-27T08:44:25.267Z - normal: last time update is in one day
-2018-07-27T08:44:25.281Z - success: ui-kit-preview-extra loaded
-2018-07-27T08:44:25.297Z - success: ui-kit-preview loaded
-2018-07-27T08:44:25.300Z - success: ui-tree loaded
-2018-07-27T08:44:25.301Z - success: weapp-adapter loaded
-2018-07-27T08:44:27.536Z - normal: Initializing project D:\demo-wechat-subdomain-master\wx-open-data-project
-2018-07-27T08:44:27.565Z - normal: Loading packages
-2018-07-27T08:44:27.572Z - normal: Watching packages
-2018-07-27T08:44:28.010Z - normal: Run Application
-2018-07-27T08:44:30.006Z - success: preview server running at http://localhost:7457
-2018-07-27T08:44:37.401Z - normal: 1.9.3
-2018-07-27T08:44:46.318Z - error: Error: connect ETIMEDOUT 69.63.176.143:80
-    at Object.exports._errnoException (util.js:1050:11)
-    at exports._exceptionWithHostPort (util.js:1073:20)
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
-    at process.on.t (D:\CocosCreator\resources\app.asar\editor\core\editor-init.js:1:1068)
-    at emitOne (events.js:101:20)
-    at process.emit (events.js:191:7)
-    at process._fatalException (bootstrap_node.js:308:26)
-2018-07-27T08:44:46.325Z - error: Error: socket hang up
-    at createHangUpError (_http_client.js:302:15)
-    at Socket.socketCloseListener (_http_client.js:334:23)
-    at emitOne (events.js:101:20)
-    at Socket.emit (events.js:191:7)
-    at TCP._handle.close [as _onclose] (net.js:510:12)
-    at process.on.t (D:\CocosCreator\resources\app.asar\editor\core\editor-init.js:1:1068)
-    at emitOne (events.js:101:20)
-    at process.emit (events.js:191:7)
-    at process._fatalException (bootstrap_node.js:308:26)
-2018-07-27T08:45:24.707Z - normal: Start building with options : {
+2018-07-29T12:21:14.170Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-29T12:21:14.179Z - normal: checking language setting...
+2018-07-29T12:21:14.179Z - normal: Language: zh
+2018-07-29T12:21:19.177Z - success: protocol editor-framework registered
+2018-07-29T12:21:19.177Z - success: protocol app registered
+2018-07-29T12:21:19.177Z - success: protocol theme registered
+2018-07-29T12:21:19.177Z - success: protocol packages registered
+2018-07-29T12:21:19.177Z - success: protocol unpack registerred
+2018-07-29T12:21:19.178Z - success: protocol disable-commonjs registerred
+2018-07-29T12:21:19.350Z - normal: connected!
+2018-07-29T12:21:19.353Z - normal: Check project D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T12:21:19.356Z - normal: Initializing Cocos2d
+2018-07-29T12:21:21.356Z - normal: Initializing Asset Database
+2018-07-29T12:21:21.428Z - success: protocol uuid registerred
+2018-07-29T12:21:21.429Z - success: protocol db registerred
+2018-07-29T12:21:21.429Z - success: protocol thumbnail registerred
+2018-07-29T12:21:21.429Z - normal: Loading editor/builtin packages
+2018-07-29T12:21:21.458Z - success: anysdk loaded
+2018-07-29T12:21:21.636Z - success: assets loaded
+2018-07-29T12:21:21.639Z - success: builder loaded
+2018-07-29T12:21:21.643Z - success: cocos-analytics loaded
+2018-07-29T12:21:21.649Z - success: console loaded
+2018-07-29T12:21:21.700Z - success: fb-instant-games loaded
+2018-07-29T12:21:21.704Z - success: hierarchy loaded
+2018-07-29T12:21:21.709Z - success: inspector loaded
+2018-07-29T12:21:21.711Z - success: keystore loaded
+2018-07-29T12:21:21.715Z - success: node-library loaded
+2018-07-29T12:21:21.718Z - success: package-asset loaded
+2018-07-29T12:21:21.721Z - success: preferences loaded
+2018-07-29T12:21:21.724Z - success: project-exporter loaded
+2018-07-29T12:21:21.749Z - success: project-importer loaded
+2018-07-29T12:21:21.752Z - success: project-settings loaded
+2018-07-29T12:21:21.756Z - success: ui-kit loaded
+2018-07-29T12:21:21.769Z - success: ui-grid loaded
+2018-07-29T12:21:21.773Z - success: scene loaded
+2018-07-29T12:21:21.775Z - success: sprite-editor loaded
+2018-07-29T12:21:21.779Z - success: store loaded
+2018-07-29T12:21:21.785Z - success: timeline loaded
+2018-07-29T12:21:21.786Z - normal: Loading builtin packages
+2018-07-29T12:21:21.805Z - success: asset-db-debugger loaded
+2018-07-29T12:21:21.820Z - success: code-editor loaded
+2018-07-29T12:21:21.827Z - success: color-picker loaded
+2018-07-29T12:21:21.841Z - success: package-manager loaded
+2018-07-29T12:21:21.848Z - success: qqplay-adapter loaded
+2018-07-29T12:21:22.003Z - success: sdkbox loaded
+2018-07-29T12:21:22.021Z - success: tester loaded
+2018-07-29T12:21:22.035Z - normal: last time update is in one day
+2018-07-29T12:21:22.036Z - success: ui-kit-preview-extra loaded
+2018-07-29T12:21:22.049Z - success: ui-kit-preview loaded
+2018-07-29T12:21:22.063Z - success: ui-tree loaded
+2018-07-29T12:21:22.069Z - success: weapp-adapter loaded
+2018-07-29T12:21:23.754Z - normal: Initializing project D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T12:21:23.769Z - normal: Loading packages
+2018-07-29T12:21:23.777Z - normal: Watching packages
+2018-07-29T12:21:24.227Z - normal: Run Application
+2018-07-29T12:21:26.485Z - success: preview server running at http://localhost:7456
+2018-07-29T12:21:34.041Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.043Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.044Z - success: ui-grid unloaded
+2018-07-29T12:21:34.045Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.045Z - success: ui-tree unloaded
+2018-07-29T12:21:34.047Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.048Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T12:21:34.048Z - success: ui-tree unloaded
+2018-07-29T12:21:34.050Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.051Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.052Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T12:21:34.053Z - success: ui-grid unloaded
+2018-07-29T12:21:34.095Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
+2018-07-29T12:21:34.113Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
+2018-07-29T12:21:34.113Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
+2018-07-29T12:21:34.117Z - success: ui-grid loaded
+2018-07-29T12:21:34.117Z - success: ui-tree loaded
+2018-07-29T12:21:34.118Z - success: ui-tree loaded
+2018-07-29T12:21:34.118Z - success: ui-grid loaded
+2018-07-29T12:21:34.621Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.622Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:21:34.622Z - success: ui-grid unloaded
+2018-07-29T12:21:34.647Z - success: ui-grid loaded
+2018-07-29T12:21:35.435Z - normal: 1.9.3
+2018-07-29T12:23:53.379Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
@@ -165,22 +234,616 @@
   "projectName": "wx_subdomain",
   "debugBuildWorker": false
 }
-2018-07-27T08:45:24.712Z - normal: Building D:\demo-wechat-subdomain-master\wx-open-data-project
-2018-07-27T08:45:24.712Z - normal: Destination D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain
-2018-07-27T08:45:25.627Z - normal: Delete D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain\**\*
-2018-07-27T08:45:57.601Z - normal: Compiled project javascript file successfully
-2018-07-27T08:45:57.605Z - normal: Start building assets
-2018-07-27T08:45:57.605Z - normal: Start spawn build-worker
-2018-07-27T08:45:58.901Z - normal: Finish spawn build-worker
-2018-07-27T08:45:58.901Z - normal: Start init build-worker
-2018-07-27T08:46:03.301Z - normal: 1.9.3
-2018-07-27T08:46:03.418Z - normal: Finish init build-worker
-2018-07-27T08:46:03.418Z - normal: Start build-assets in worker
-2018-07-27T08:46:03.769Z - normal: Finish build-assets in worker
-2018-07-27T08:46:03.782Z - normal: Finish building assets
-2018-07-27T08:46:03.795Z - normal: Start building raw assets
-2018-07-27T08:46:03.797Z - normal: Start building plugin scripts
-2018-07-27T08:46:03.865Z - normal: Finish building raw assets
-2018-07-27T08:46:03.871Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-07-27T08:46:06.321Z - normal: Built to "D:\demo-wechat-subdomain-master\wx-open-data-project\build\wechatgame" successfully
-2018-07-27T08:54:47.600Z - info: shutdown preview server
+2018-07-29T12:23:53.384Z - normal: Building D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T12:23:53.385Z - normal: Destination D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain
+2018-07-29T12:23:54.247Z - normal: Delete D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain\**\*
+2018-07-29T12:24:21.732Z - normal: Compiled project javascript file successfully
+2018-07-29T12:24:21.735Z - normal: Start building assets
+2018-07-29T12:24:21.735Z - normal: Start spawn build-worker
+2018-07-29T12:24:22.990Z - normal: Finish spawn build-worker
+2018-07-29T12:24:22.990Z - normal: Start init build-worker
+2018-07-29T12:24:26.140Z - normal: 1.9.3
+2018-07-29T12:24:26.260Z - normal: Finish init build-worker
+2018-07-29T12:24:26.260Z - normal: Start build-assets in worker
+2018-07-29T12:24:26.593Z - normal: Finish build-assets in worker
+2018-07-29T12:24:26.604Z - normal: Finish building assets
+2018-07-29T12:24:26.614Z - normal: Start building raw assets
+2018-07-29T12:24:26.617Z - normal: Start building plugin scripts
+2018-07-29T12:24:26.655Z - normal: Finish building raw assets
+2018-07-29T12:24:26.700Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T12:24:27.595Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.596Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.597Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.598Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.599Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.600Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.601Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.602Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.602Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.606Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.609Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.683Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.684Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.684Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.684Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.685Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.688Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.689Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.690Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.691Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.691Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.692Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.803Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.805Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.909Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.910Z - success: weapp-adapter loaded
+2018-07-29T12:24:27.913Z - success: weapp-adapter unloaded
+2018-07-29T12:24:27.929Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.384Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.385Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.385Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.386Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.386Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.387Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.388Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.388Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.388Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.389Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.389Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.390Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.391Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.391Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.392Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.392Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.393Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.394Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.394Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.395Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.395Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.396Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.396Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.397Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.399Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.399Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.400Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.400Z - success: weapp-adapter unloaded
+2018-07-29T12:24:29.407Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.407Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.407Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.407Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.408Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.408Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.408Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.408Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.408Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.408Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.409Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.410Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.410Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.410Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.410Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.410Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.411Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.411Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.411Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.411Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.411Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.411Z - success: weapp-adapter loaded
+2018-07-29T12:24:29.639Z - normal: Built to "D:\demo-wechat-subdomain-master\wx-open-data-project\build\wechatgame" successfully
+2018-07-29T12:27:01.102Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build",
+  "debug": false,
+  "dest": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "AudioSource",
+    "Animation",
+    "MotionStreak",
+    "Collider",
+    "Audio",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "RenderTexture",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.wx-sub-test",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "1",
+  "scenes": [
+    "088db947-d2bf-4c47-b64f-f30bc4bc0faa"
+  ],
+  "sourceMaps": false,
+  "startScene": "088db947-d2bf-4c47-b64f-f30bc4bc0faa",
+  "template": "link",
+  "title": "wx_subdomain",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "buildsub": true,
+    "hasSubdomain": true,
+    "isSubdomain": true,
+    "orientation": "portrait"
+  },
+  "xxteaKey": "0f6c60db-2545-4d",
+  "zipCompressJs": true,
+  "project": "D:\\demo-wechat-subdomain-master\\wx-open-data-project",
+  "projectName": "wx_subdomain",
+  "debugBuildWorker": false
+}
+2018-07-29T12:27:01.119Z - normal: Building D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T12:27:01.119Z - normal: Destination D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain
+2018-07-29T12:27:01.122Z - normal: Delete D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain\**\*
+2018-07-29T12:27:04.224Z - normal: Compiled project javascript file successfully
+2018-07-29T12:27:04.225Z - normal: Start building assets
+2018-07-29T12:27:04.225Z - normal: Start spawn build-worker
+2018-07-29T12:27:05.395Z - normal: Finish spawn build-worker
+2018-07-29T12:27:05.395Z - normal: Start init build-worker
+2018-07-29T12:27:08.548Z - normal: 1.9.3
+2018-07-29T12:27:08.654Z - normal: Finish init build-worker
+2018-07-29T12:27:08.654Z - normal: Start build-assets in worker
+2018-07-29T12:27:08.978Z - normal: Finish build-assets in worker
+2018-07-29T12:27:08.989Z - normal: Finish building assets
+2018-07-29T12:27:08.997Z - normal: Start building raw assets
+2018-07-29T12:27:08.999Z - normal: Start building plugin scripts
+2018-07-29T12:27:09.033Z - normal: Finish building raw assets
+2018-07-29T12:27:09.040Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T12:27:09.408Z - success: weapp-adapter unloaded
+2018-07-29T12:27:09.486Z - success: weapp-adapter loaded
+2018-07-29T12:27:09.561Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:27:09.563Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:27:09.565Z - success: ui-grid unloaded
+2018-07-29T12:27:09.567Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:27:09.567Z - success: ui-tree unloaded
+2018-07-29T12:27:09.570Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:27:09.571Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:27:09.571Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T12:27:09.572Z - success: ui-grid unloaded
+2018-07-29T12:27:09.587Z - success: ui-kit unloaded
+2018-07-29T12:27:09.589Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T12:27:09.589Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T12:27:09.589Z - success: ui-tree unloaded
+2018-07-29T12:27:09.683Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
+2018-07-29T12:27:09.684Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
+2018-07-29T12:27:09.716Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
+2018-07-29T12:27:09.758Z - success: ui-grid loaded
+2018-07-29T12:27:09.758Z - success: ui-tree loaded
+2018-07-29T12:27:09.758Z - success: ui-grid loaded
+2018-07-29T12:27:09.759Z - success: ui-kit loaded
+2018-07-29T12:27:09.759Z - success: ui-tree loaded
+2018-07-29T12:27:11.069Z - normal: Built to "D:\demo-wechat-subdomain-master\wx-open-data-project\build\wechatgame" successfully
+2018-07-29T12:42:08.079Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build",
+  "debug": false,
+  "dest": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "AudioSource",
+    "Animation",
+    "MotionStreak",
+    "Collider",
+    "Audio",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "RenderTexture",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.wx-sub-test",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "1",
+  "scenes": [
+    "088db947-d2bf-4c47-b64f-f30bc4bc0faa"
+  ],
+  "sourceMaps": false,
+  "startScene": "088db947-d2bf-4c47-b64f-f30bc4bc0faa",
+  "template": "link",
+  "title": "wx_subdomain",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "buildsub": true,
+    "hasSubdomain": true,
+    "isSubdomain": true,
+    "orientation": "portrait"
+  },
+  "xxteaKey": "0f6c60db-2545-4d",
+  "zipCompressJs": true,
+  "project": "D:\\demo-wechat-subdomain-master\\wx-open-data-project",
+  "projectName": "wx_subdomain",
+  "debugBuildWorker": false
+}
+2018-07-29T12:42:08.121Z - normal: Building D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T12:42:08.121Z - normal: Destination D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain
+2018-07-29T12:42:08.123Z - normal: Delete D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain\**\*
+2018-07-29T12:42:12.972Z - normal: Compiled project javascript file successfully
+2018-07-29T12:42:12.972Z - normal: Start building assets
+2018-07-29T12:42:12.972Z - normal: Start spawn build-worker
+2018-07-29T12:42:14.225Z - normal: Finish spawn build-worker
+2018-07-29T12:42:14.225Z - normal: Start init build-worker
+2018-07-29T12:42:17.581Z - normal: 1.9.3
+2018-07-29T12:42:17.706Z - normal: Finish init build-worker
+2018-07-29T12:42:17.706Z - normal: Start build-assets in worker
+2018-07-29T12:42:18.064Z - normal: Finish build-assets in worker
+2018-07-29T12:42:18.093Z - normal: Finish building assets
+2018-07-29T12:42:18.102Z - normal: Start building raw assets
+2018-07-29T12:42:18.103Z - normal: Start building plugin scripts
+2018-07-29T12:42:18.143Z - normal: Finish building raw assets
+2018-07-29T12:42:18.148Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T12:42:20.402Z - normal: Built to "D:\demo-wechat-subdomain-master\wx-open-data-project\build\wechatgame" successfully
+2018-07-29T13:09:53.056Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build",
+  "debug": false,
+  "dest": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "AudioSource",
+    "Animation",
+    "MotionStreak",
+    "Collider",
+    "Audio",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "RenderTexture",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.wx-sub-test",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "1",
+  "scenes": [
+    "088db947-d2bf-4c47-b64f-f30bc4bc0faa"
+  ],
+  "sourceMaps": false,
+  "startScene": "088db947-d2bf-4c47-b64f-f30bc4bc0faa",
+  "template": "link",
+  "title": "wx_subdomain",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "buildsub": true,
+    "hasSubdomain": true,
+    "isSubdomain": true,
+    "orientation": "portrait"
+  },
+  "xxteaKey": "0f6c60db-2545-4d",
+  "zipCompressJs": true,
+  "project": "D:\\demo-wechat-subdomain-master\\wx-open-data-project",
+  "projectName": "wx_subdomain",
+  "debugBuildWorker": false
+}
+2018-07-29T13:09:53.074Z - normal: Building D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T13:09:53.075Z - normal: Destination D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain
+2018-07-29T13:09:53.077Z - normal: Delete D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain\**\*
+2018-07-29T13:09:56.058Z - normal: Compiled project javascript file successfully
+2018-07-29T13:09:56.059Z - normal: Start building assets
+2018-07-29T13:09:56.059Z - normal: Start spawn build-worker
+2018-07-29T13:09:57.202Z - normal: Finish spawn build-worker
+2018-07-29T13:09:57.203Z - normal: Start init build-worker
+2018-07-29T13:10:00.376Z - normal: 1.9.3
+2018-07-29T13:10:00.484Z - normal: Finish init build-worker
+2018-07-29T13:10:00.484Z - normal: Start build-assets in worker
+2018-07-29T13:10:00.774Z - normal: Finish build-assets in worker
+2018-07-29T13:10:00.785Z - normal: Finish building assets
+2018-07-29T13:10:00.793Z - normal: Start building raw assets
+2018-07-29T13:10:00.794Z - normal: Start building plugin scripts
+2018-07-29T13:10:00.828Z - normal: Finish building raw assets
+2018-07-29T13:10:00.834Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T13:10:02.500Z - normal: Built to "D:\demo-wechat-subdomain-master\wx-open-data-project\build\wechatgame" successfully
+2018-07-29T13:17:27.430Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build",
+  "debug": false,
+  "dest": "D:\\demo-wechat-subdomain-master\\wx-open-data-project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ProgressBar",
+    "ScrollBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "AudioSource",
+    "Animation",
+    "MotionStreak",
+    "Collider",
+    "Audio",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "RenderTexture",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.wx-sub-test",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "1",
+  "scenes": [
+    "088db947-d2bf-4c47-b64f-f30bc4bc0faa"
+  ],
+  "sourceMaps": false,
+  "startScene": "088db947-d2bf-4c47-b64f-f30bc4bc0faa",
+  "template": "link",
+  "title": "wx_subdomain",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "buildsub": true,
+    "hasSubdomain": true,
+    "isSubdomain": true,
+    "orientation": "portrait"
+  },
+  "xxteaKey": "0f6c60db-2545-4d",
+  "zipCompressJs": true,
+  "project": "D:\\demo-wechat-subdomain-master\\wx-open-data-project",
+  "projectName": "wx_subdomain",
+  "debugBuildWorker": false
+}
+2018-07-29T13:17:27.448Z - normal: Building D:\demo-wechat-subdomain-master\wx-open-data-project
+2018-07-29T13:17:27.449Z - normal: Destination D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain
+2018-07-29T13:17:27.453Z - normal: Delete D:\demo-wechat-subdomain-master\wx-open-data-project\build\wx_subdomain\**\*
+2018-07-29T13:17:30.467Z - normal: Compiled project javascript file successfully
+2018-07-29T13:17:30.468Z - normal: Start building assets
+2018-07-29T13:17:30.468Z - normal: Start spawn build-worker
+2018-07-29T13:17:31.773Z - normal: Finish spawn build-worker
+2018-07-29T13:17:31.774Z - normal: Start init build-worker
+2018-07-29T13:17:35.342Z - normal: 1.9.3
+2018-07-29T13:17:35.457Z - normal: Finish init build-worker
+2018-07-29T13:17:35.458Z - normal: Start build-assets in worker
+2018-07-29T13:17:35.806Z - normal: Finish build-assets in worker
+2018-07-29T13:17:35.817Z - normal: Finish building assets
+2018-07-29T13:17:35.825Z - normal: Start building raw assets
+2018-07-29T13:17:35.826Z - normal: Start building plugin scripts
+2018-07-29T13:17:35.858Z - normal: Finish building raw assets
+2018-07-29T13:17:35.863Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T13:17:37.487Z - normal: Built to "D:\demo-wechat-subdomain-master\wx-open-data-project\build\wechatgame" successfully
