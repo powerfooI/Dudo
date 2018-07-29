@@ -30,11 +30,12 @@ cc.Class({
             wx.postMessage({
                 message: 'Show'
             })
+
+            //1秒之后显示按键
+            setTimeout(()=>{
+                this.showButtons()
+            },1000)
         }
-        //1秒之后显示按键
-        setTimeout(()=>{
-            this.showButtons()
-        },1000)
     },
 
     //点击上一页按钮
@@ -53,11 +54,11 @@ cc.Class({
 
     //点击关闭按钮
     onClickShutDown:function(){
-        this.rankingSwitch = false
         wx.postMessage({
             message:'Hide'
         })
         this.hideButtons()
+        this.rankingSwitch = false
     },
 
     //隐藏上一页下一页和关闭按钮

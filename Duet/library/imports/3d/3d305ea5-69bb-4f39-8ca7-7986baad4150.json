@@ -3023,7 +3023,8 @@
     "_enabled": true,
     "display": {
       "__id__": 72
-    }
+    },
+    "rankingSwitch": false
   },
   {
     "__type__": "cc.Node",
