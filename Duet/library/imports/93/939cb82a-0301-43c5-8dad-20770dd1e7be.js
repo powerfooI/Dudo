@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '939cbgqAwFDxY2tIHcN0ee+', 'Game');
-// scripts/Game.js
+cc._RF.push(module, '939cbgqAwFDxY2tIHcN0ee+', 'game');
+// scripts/game.js
 
 'use strict';
 

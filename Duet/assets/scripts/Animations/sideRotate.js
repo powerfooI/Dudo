@@ -1,13 +1,4 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+//障碍在两侧进行旋转
 cc.Class({
     extends: cc.Component,
 
@@ -17,7 +8,6 @@ cc.Class({
 
     onLoad() {
         // this.rotateDirection = 1 //向左为1
-
     },
 
     start() {
@@ -25,13 +15,11 @@ cc.Class({
 
         let inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo
 
-        // this.parentSpeed = inputInfo.obstaclesInfo.speed
         this.parentSpeed = this.node.parent.getComponent('obstacles').speed
         this.centerY = inputInfo.circleInfo.centerY
 
         this.beginRotateDis = 3 * inputInfo.obstaclesInfo.spacing
         this.rotateSpeed = 180 * this.parentSpeed / (3 * inputInfo.obstaclesInfo.spacing)
-        // this.rewindScale = inputInfo.animationInfo.rewindScale
     },
 
     update(dt) {

@@ -4,16 +4,7 @@ cc._RF.push(module, 'fecefteB8ZDhJZf6W+OpfE0', 'moveLR');
 
 'use strict';
 
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+//障碍左右横移组件
 cc.Class({
     extends: cc.Component,
 
@@ -22,24 +13,20 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-        // this.beginDis = 1
         this.speedScale = 1; //为1，考虑从左往右的情况，从右往左改为-1
     },
     start: function start() {
         this.animationMoved = 0;
 
         var inputInfo = cc.find('Controller Node').getComponent('controller').preSetInfo;
-        // this.parentSpeed = inputInfo.obstaclesInfo.speed
         this.parentSpeed = this.node.parent.getComponent('obstacles').speed;
         this.centerY = inputInfo.circleInfo.centerY;
-        // this.rewindScale = inputInfo.animationInfo.rewindScale
 
         this.Horwidth = Math.abs(this.node.parent.width - 2 * this.node.x);
 
         this.moveLRDis = 3.5 * this.Horwidth / Math.abs(this.speedScale);
     },
     update: function update(dt) {
-        // console.log(this.speedScale)
         //到旋转中心的距离
         var dis = this.node.parent.y + this.node.y - this.centerY;
 

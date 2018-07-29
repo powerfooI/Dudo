@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'dd428RQ38RFqLYH6Z1vla8o', 'Dot');
-// scripts/Dot.js
+cc._RF.push(module, 'dd428RQ38RFqLYH6Z1vla8o', 'dot');
+// scripts/dot.js
 
 'use strict';
 

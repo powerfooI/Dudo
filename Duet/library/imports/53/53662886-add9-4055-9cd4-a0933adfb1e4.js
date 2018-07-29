@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '53662iGrdlAVZzUoJM637Hk', 'startmenu');
-// scripts/startmenu.js
+// scripts/Menu/startmenu.js
 
 'use strict';
 

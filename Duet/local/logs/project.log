@@ -1,59 +1,60 @@
-2018-07-28T01:27:43.374Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-28T01:27:43.383Z - normal: checking language setting...
-2018-07-28T01:27:43.383Z - normal: Language: zh
-2018-07-28T01:27:47.352Z - success: protocol editor-framework registered
-2018-07-28T01:27:47.352Z - success: protocol app registered
-2018-07-28T01:27:47.353Z - success: protocol theme registered
-2018-07-28T01:27:47.353Z - success: protocol packages registered
-2018-07-28T01:27:47.353Z - success: protocol unpack registerred
-2018-07-28T01:27:47.353Z - success: protocol disable-commonjs registerred
-2018-07-28T01:27:47.499Z - normal: connected!
-2018-07-28T01:27:47.503Z - normal: Check project D:\WechatGame_Duet_Ver2
-2018-07-28T01:27:47.519Z - normal: Initializing Cocos2d
-2018-07-28T01:27:49.559Z - normal: Initializing Asset Database
-2018-07-28T01:27:49.626Z - success: protocol uuid registerred
-2018-07-28T01:27:49.626Z - success: protocol db registerred
-2018-07-28T01:27:49.626Z - success: protocol thumbnail registerred
-2018-07-28T01:27:49.627Z - normal: Loading editor/builtin packages
-2018-07-28T01:27:49.656Z - success: anysdk loaded
-2018-07-28T01:27:49.832Z - success: assets loaded
-2018-07-28T01:27:49.834Z - success: builder loaded
-2018-07-28T01:27:49.838Z - success: cocos-analytics loaded
-2018-07-28T01:27:49.843Z - success: console loaded
-2018-07-28T01:27:49.887Z - success: fb-instant-games loaded
-2018-07-28T01:27:49.891Z - success: hierarchy loaded
-2018-07-28T01:27:49.894Z - success: inspector loaded
-2018-07-28T01:27:49.896Z - success: keystore loaded
-2018-07-28T01:27:49.900Z - success: node-library loaded
-2018-07-28T01:27:49.902Z - success: package-asset loaded
-2018-07-28T01:27:49.904Z - success: preferences loaded
-2018-07-28T01:27:49.907Z - success: project-exporter loaded
-2018-07-28T01:27:49.926Z - success: project-importer loaded
-2018-07-28T01:27:49.928Z - success: project-settings loaded
-2018-07-28T01:27:49.932Z - success: ui-kit loaded
-2018-07-28T01:27:49.945Z - success: ui-grid loaded
-2018-07-28T01:27:49.949Z - success: scene loaded
-2018-07-28T01:27:49.950Z - success: sprite-editor loaded
-2018-07-28T01:27:49.954Z - success: store loaded
-2018-07-28T01:27:49.960Z - success: timeline loaded
-2018-07-28T01:27:49.960Z - normal: Loading builtin packages
-2018-07-28T01:27:49.978Z - success: asset-db-debugger loaded
-2018-07-28T01:27:49.991Z - success: code-editor loaded
-2018-07-28T01:27:49.995Z - success: color-picker loaded
-2018-07-28T01:27:50.009Z - success: package-manager loaded
-2018-07-28T01:27:50.016Z - success: qqplay-adapter loaded
-2018-07-28T01:27:50.184Z - success: sdkbox loaded
-2018-07-28T01:27:50.203Z - success: tester loaded
-2018-07-28T01:27:50.217Z - success: ui-kit-preview-extra loaded
-2018-07-28T01:27:50.235Z - success: ui-kit-preview loaded
-2018-07-28T01:27:50.249Z - success: ui-tree loaded
-2018-07-28T01:27:50.255Z - success: weapp-adapter loaded
-2018-07-28T01:27:51.925Z - normal: Initializing project D:\WechatGame_Duet_Ver2
-2018-07-28T01:27:51.939Z - normal: Loading packages
-2018-07-28T01:27:51.946Z - normal: Watching packages
-2018-07-28T01:27:52.437Z - normal: Run Application
-2018-07-28T01:27:54.372Z - success: preview server running at http://localhost:7456
-2018-07-28T01:28:02.720Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T02:47:02.258Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-29T02:47:02.268Z - normal: checking language setting...
+2018-07-29T02:47:02.269Z - normal: Language: zh
+2018-07-29T02:47:04.631Z - success: protocol editor-framework registered
+2018-07-29T02:47:04.631Z - success: protocol app registered
+2018-07-29T02:47:04.631Z - success: protocol theme registered
+2018-07-29T02:47:04.631Z - success: protocol packages registered
+2018-07-29T02:47:04.631Z - success: protocol unpack registerred
+2018-07-29T02:47:04.632Z - success: protocol disable-commonjs registerred
+2018-07-29T02:47:04.801Z - normal: connected!
+2018-07-29T02:47:04.804Z - normal: Check project D:\WechatGame_Duet_Ver3
+2018-07-29T02:47:04.807Z - normal: Initializing Cocos2d
+2018-07-29T02:47:05.113Z - normal: Initializing Asset Database
+2018-07-29T02:47:05.177Z - success: protocol uuid registerred
+2018-07-29T02:47:05.177Z - success: protocol db registerred
+2018-07-29T02:47:05.177Z - success: protocol thumbnail registerred
+2018-07-29T02:47:05.177Z - normal: Loading editor/builtin packages
+2018-07-29T02:47:05.208Z - success: anysdk loaded
+2018-07-29T02:47:05.398Z - success: assets loaded
+2018-07-29T02:47:05.401Z - success: builder loaded
+2018-07-29T02:47:05.404Z - success: cocos-analytics loaded
+2018-07-29T02:47:05.409Z - success: console loaded
+2018-07-29T02:47:05.471Z - success: fb-instant-games loaded
+2018-07-29T02:47:05.475Z - success: hierarchy loaded
+2018-07-29T02:47:05.478Z - success: inspector loaded
+2018-07-29T02:47:05.480Z - success: keystore loaded
+2018-07-29T02:47:05.485Z - success: node-library loaded
+2018-07-29T02:47:05.488Z - success: package-asset loaded
+2018-07-29T02:47:05.491Z - success: preferences loaded
+2018-07-29T02:47:05.493Z - success: project-exporter loaded
+2018-07-29T02:47:05.520Z - success: project-importer loaded
+2018-07-29T02:47:05.523Z - success: project-settings loaded
+2018-07-29T02:47:05.527Z - success: ui-kit loaded
+2018-07-29T02:47:05.531Z - success: ui-grid loaded
+2018-07-29T02:47:05.534Z - success: scene loaded
+2018-07-29T02:47:05.536Z - success: sprite-editor loaded
+2018-07-29T02:47:05.540Z - success: store loaded
+2018-07-29T02:47:05.548Z - success: timeline loaded
+2018-07-29T02:47:05.548Z - normal: Loading builtin packages
+2018-07-29T02:47:05.553Z - success: asset-db-debugger loaded
+2018-07-29T02:47:05.555Z - success: code-editor loaded
+2018-07-29T02:47:05.556Z - success: color-picker loaded
+2018-07-29T02:47:05.559Z - success: package-manager loaded
+2018-07-29T02:47:05.562Z - success: qqplay-adapter loaded
+2018-07-29T02:47:05.670Z - success: sdkbox loaded
+2018-07-29T02:47:05.677Z - normal: last time update is in one day
+2018-07-29T02:47:05.677Z - success: tester loaded
+2018-07-29T02:47:05.680Z - success: ui-kit-preview-extra loaded
+2018-07-29T02:47:05.683Z - success: ui-kit-preview loaded
+2018-07-29T02:47:05.685Z - success: ui-tree loaded
+2018-07-29T02:47:05.686Z - success: weapp-adapter loaded
+2018-07-29T02:47:07.403Z - normal: Initializing project D:\WechatGame_Duet_Ver3
+2018-07-29T02:47:07.422Z - normal: Loading packages
+2018-07-29T02:47:07.431Z - normal: Watching packages
+2018-07-29T02:47:07.881Z - normal: Run Application
+2018-07-29T02:47:10.352Z - success: preview server running at http://localhost:7456
+2018-07-29T02:47:16.892Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -62,7 +63,7 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:02.724Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+2018-07-29T02:47:16.893Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -71,8 +72,8 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:02.724Z - success: ui-grid unloaded
-2018-07-28T01:28:02.726Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+2018-07-29T02:47:16.894Z - success: ui-grid unloaded
+2018-07-29T02:47:16.895Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -81,8 +82,8 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:02.727Z - success: ui-tree unloaded
-2018-07-28T01:28:02.729Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+2018-07-29T02:47:16.896Z - success: ui-tree unloaded
+2018-07-29T02:47:16.898Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -91,13 +92,9 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:02.730Z - failed: Failed to uncache module main.js: Cannot find it.
-2018-07-28T01:28:02.730Z - success: ui-tree unloaded
-2018-07-28T01:28:02.771Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
-2018-07-28T01:28:02.787Z - success: ui-grid loaded
-2018-07-28T01:28:02.788Z - success: ui-tree loaded
-2018-07-28T01:28:02.789Z - success: ui-tree loaded
-2018-07-28T01:28:02.846Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T02:47:16.898Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T02:47:16.899Z - success: ui-tree unloaded
+2018-07-29T02:47:16.900Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -106,7 +103,7 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:02.847Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+2018-07-29T02:47:16.901Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -115,9 +112,16 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:02.847Z - success: ui-grid unloaded
-2018-07-28T01:28:02.883Z - success: ui-grid loaded
-2018-07-28T01:28:03.149Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T02:47:16.902Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T02:47:16.903Z - success: ui-grid unloaded
+2018-07-29T02:47:16.943Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
+2018-07-29T02:47:16.962Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
+2018-07-29T02:47:16.962Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
+2018-07-29T02:47:16.967Z - success: ui-grid loaded
+2018-07-29T02:47:16.967Z - success: ui-tree loaded
+2018-07-29T02:47:16.968Z - success: ui-tree loaded
+2018-07-29T02:47:16.968Z - success: ui-grid loaded
+2018-07-29T02:47:17.160Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -126,7 +130,7 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:03.150Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+2018-07-29T02:47:17.162Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -135,36 +139,444 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:28:03.151Z - success: ui-grid unloaded
-2018-07-28T01:28:03.186Z - success: ui-grid loaded
-2018-07-28T01:28:04.114Z - normal: 1.9.3
-2018-07-28T01:28:12.940Z - error: Error: connect ETIMEDOUT 31.13.64.4:80
-    at Object.exports._errnoException (util.js:1050:11)
-    at exports._exceptionWithHostPort (util.js:1073:20)
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
-    at process.on.t (D:\CocosCreator\resources\app.asar\editor\core\editor-init.js:1:1068)
-    at emitOne (events.js:101:20)
-    at process.emit (events.js:191:7)
-    at process._fatalException (bootstrap_node.js:308:26)
-2018-07-28T01:28:12.942Z - error: Error: socket hang up
-    at createHangUpError (_http_client.js:302:15)
-    at Socket.socketCloseListener (_http_client.js:334:23)
-    at emitOne (events.js:101:20)
+2018-07-29T02:47:17.162Z - success: ui-grid unloaded
+2018-07-29T02:47:17.188Z - success: ui-grid loaded
+2018-07-29T02:47:18.048Z - normal: 1.9.3
+2018-07-29T03:00:09.535Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\WechatGame_Duet_Ver3\\build",
+  "debug": false,
+  "dest": "D:\\WechatGame_Duet_Ver3\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "TiledMap",
+    "Spine Skeleton",
+    "Toggle",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "DragonBones",
+    "RenderTexture",
+    "Chipmunk",
+    "Camera"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.WechatGame_Duet_Local",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "3d305ea5-69bb-4f39-8ca7-7986baad4150",
+    "2f5d49b0-359a-4332-ae18-68516da8042d",
+    "610f35b3-18a6-4457-8e4d-fc834577e420"
+  ],
+  "sourceMaps": false,
+  "startScene": "3d305ea5-69bb-4f39-8ca7-7986baad4150",
+  "template": "link",
+  "title": "WechatGame_Duet_Local",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx7b3192f3be562c17",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": "wx_subdomain"
+  },
+  "xxteaKey": "f0c391f9-dcd7-44",
+  "zipCompressJs": true,
+  "project": "D:\\WechatGame_Duet_Ver3",
+  "projectName": "WechatGame_Duet_Local",
+  "debugBuildWorker": false
+}
+2018-07-29T03:00:09.539Z - normal: Building D:\WechatGame_Duet_Ver3
+2018-07-29T03:00:09.539Z - normal: Destination D:\WechatGame_Duet_Ver3\build\wechatgame
+2018-07-29T03:00:10.444Z - normal: Delete D:\WechatGame_Duet_Ver3\build\wechatgame\**\*
+2018-07-29T03:00:15.454Z - normal: Compiled project javascript file successfully
+2018-07-29T03:00:15.455Z - normal: Start building assets
+2018-07-29T03:00:15.455Z - normal: Start spawn build-worker
+2018-07-29T03:00:16.600Z - normal: Finish spawn build-worker
+2018-07-29T03:00:16.600Z - normal: Start init build-worker
+2018-07-29T03:00:19.666Z - normal: 1.9.3
+2018-07-29T03:00:19.832Z - normal: Finish init build-worker
+2018-07-29T03:00:19.833Z - normal: Start build-assets in worker
+2018-07-29T03:00:20.928Z - normal: Finish build-assets in worker
+2018-07-29T03:00:20.946Z - normal: Finish building assets
+2018-07-29T03:00:20.983Z - normal: Start building raw assets
+2018-07-29T03:00:20.984Z - normal: Start building plugin scripts
+2018-07-29T03:00:21.162Z - normal: Finish building raw assets
+2018-07-29T03:00:21.213Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T03:00:22.928Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.931Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.932Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.933Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.934Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.935Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.936Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.936Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.937Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.938Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.939Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.940Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.941Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.943Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.943Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.944Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.945Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.945Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.946Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.947Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.948Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.948Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.949Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.949Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.950Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.951Z - success: weapp-adapter unloaded
+2018-07-29T03:00:22.951Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.017Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.018Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.019Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.020Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.021Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.022Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.023Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.024Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.025Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.026Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.029Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.029Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.030Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.030Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.030Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.031Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.031Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.031Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.031Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.032Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.032Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.033Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.033Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.033Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.033Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.034Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.034Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.259Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.261Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.263Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.264Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.276Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.276Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.277Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.277Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.538Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.539Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.541Z - error: Failed to remove menu in path: 开发者/AssetDB Debugger (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.543Z - success: asset-db-debugger unloaded
+2018-07-29T03:00:23.545Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.546Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.546Z - success: ui-grid unloaded
+2018-07-29T03:00:23.547Z - success: qqplay-adapter unloaded
+2018-07-29T03:00:23.564Z - success: ui-kit-preview-extra unloaded
+2018-07-29T03:00:23.581Z - success: ui-kit-preview unloaded
+2018-07-29T03:00:23.600Z - success: ui-kit unloaded
+2018-07-29T03:00:23.600Z - success: code-editor unloaded
+2018-07-29T03:00:23.602Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.602Z - success: ui-tree unloaded
+2018-07-29T03:00:23.604Z - error: Failed to remove menu in path: 开发者/AssetDB Debugger (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.604Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.605Z - success: asset-db-debugger unloaded
+2018-07-29T03:00:23.605Z - success: color-picker unloaded
+2018-07-29T03:00:23.608Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.609Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.609Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.610Z - success: ui-grid unloaded
+2018-07-29T03:00:23.633Z - success: sdkbox unloaded
+2018-07-29T03:00:23.635Z - error: Failed to remove menu in path: 扩展/SDKBox/Launch (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.635Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.635Z - success: sdkbox unloaded
+2018-07-29T03:00:23.637Z - error: Failed to remove menu in path: 开发者/UI-Kit Preview Extra (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.637Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.637Z - success: ui-kit-preview-extra unloaded
+2018-07-29T03:00:23.639Z - error: Failed to remove menu in path: 开发者/UI-Kit Preview (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.639Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.639Z - success: ui-kit-preview unloaded
+2018-07-29T03:00:23.640Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.640Z - success: code-editor unloaded
+2018-07-29T03:00:23.641Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.641Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.642Z - success: ui-tree unloaded
+2018-07-29T03:00:23.643Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.643Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.646Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
+    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.646Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:00:23.647Z - success: ui-tree unloaded
+2018-07-29T03:00:23.647Z - success: weapp-adapter unloaded
+2018-07-29T03:00:23.807Z - failed: Failed to load panel "panel" from "asset-db-debugger", the panelID asset-db-debugger already exists
+2018-07-29T03:00:23.841Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
+2018-07-29T03:00:23.841Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
+2018-07-29T03:00:23.861Z - error: Failed to add menu to 扩展/SDKBox,
+          a menu item 扩展/SDKBox/Launch you tried to add already exists
+    at Menu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:4608)
+    at Object.MainMenu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4273)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:2770)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.863Z - error: Failed to add menu to 开发者,
+          a menu item 开发者/UI-Kit Preview Extra you tried to add already exists
+    at Menu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:4608)
+    at Object.MainMenu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4273)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:2770)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.863Z - failed: Failed to load panel "panel" from "ui-kit-preview-extra", the panelID ui-kit-preview-extra already exists
+2018-07-29T03:00:23.864Z - error: Failed to add menu to 开发者,
+          a menu item 开发者/UI-Kit Preview you tried to add already exists
+    at Menu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:4608)
+    at Object.MainMenu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4273)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:2770)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:00:23.864Z - failed: Failed to load panel "panel" from "ui-kit-preview", the panelID ui-kit-preview already exists
+2018-07-29T03:00:23.865Z - failed: Failed to load panel "panel" from "code-editor", the panelID code-editor already exists
+2018-07-29T03:00:23.882Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
+2018-07-29T03:00:23.898Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
+2018-07-29T03:00:23.968Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.969Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.969Z - success: asset-db-debugger loaded
+2018-07-29T03:00:23.970Z - success: ui-grid loaded
+2018-07-29T03:00:23.970Z - success: qqplay-adapter loaded
+2018-07-29T03:00:23.971Z - success: ui-kit-preview-extra loaded
+2018-07-29T03:00:23.971Z - success: ui-kit-preview loaded
+2018-07-29T03:00:23.971Z - success: ui-kit loaded
+2018-07-29T03:00:23.972Z - success: code-editor loaded
+2018-07-29T03:00:23.972Z - success: ui-tree loaded
+2018-07-29T03:00:23.974Z - success: asset-db-debugger loaded
+2018-07-29T03:00:23.977Z - success: color-picker loaded
+2018-07-29T03:00:23.977Z - success: ui-grid loaded
+2018-07-29T03:00:23.978Z - success: sdkbox loaded
+2018-07-29T03:00:23.978Z - success: sdkbox loaded
+2018-07-29T03:00:23.978Z - success: ui-kit-preview-extra loaded
+2018-07-29T03:00:23.978Z - success: ui-kit-preview loaded
+2018-07-29T03:00:23.978Z - success: code-editor loaded
+2018-07-29T03:00:23.979Z - success: ui-tree loaded
+2018-07-29T03:00:23.979Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.979Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.979Z - success: ui-tree loaded
+2018-07-29T03:00:23.979Z - success: weapp-adapter loaded
+2018-07-29T03:00:23.986Z - normal: last time update is in one day
+2018-07-29T03:00:23.987Z - normal: last time update is in one day
+2018-07-29T03:00:24.065Z - success: weapp-adapter unloaded
+2018-07-29T03:00:24.066Z - success: weapp-adapter unloaded
+2018-07-29T03:00:24.102Z - success: weapp-adapter loaded
+2018-07-29T03:00:24.102Z - success: weapp-adapter loaded
+2018-07-29T03:00:24.256Z - success: weapp-adapter unloaded
+2018-07-29T03:00:24.256Z - success: weapp-adapter unloaded
+2018-07-29T03:00:24.257Z - success: weapp-adapter unloaded
+2018-07-29T03:00:24.257Z - success: weapp-adapter unloaded
+2018-07-29T03:00:24.259Z - success: weapp-adapter loaded
+2018-07-29T03:00:24.260Z - success: weapp-adapter loaded
+2018-07-29T03:00:24.260Z - success: weapp-adapter loaded
+2018-07-29T03:00:24.260Z - success: weapp-adapter loaded
+2018-07-29T03:00:24.383Z - normal: Built to "D:\WechatGame_Duet_Ver3\build\wechatgame" successfully
+2018-07-29T03:01:08.838Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
+2018-07-29T03:01:08.838Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-29T03:01:13.272Z - normal: Initializing...
+
+2018-07-29T03:01:13.282Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-07-29T03:01:14.330Z - normal: starting ide...
+
+2018-07-29T03:01:21.974Z - normal: IDE server has started, listening on http://127.0.0.1:35272
+
+2018-07-29T03:01:21.979Z - normal: initialization finished
+
+2018-07-29T03:01:22.807Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 {\\\"code\\\":400003,\\\"error\\\":\\\"已存在相同 AppID 和 projectname 的项目（路径），请修改后重试\\\"}\"}"
+
+    at Socket.<anonymous> (D:\CocosCreator\resources\app.asar\editor\core\wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
     at Socket.emit (events.js:191:7)
-    at TCP._handle.close [as _onclose] (net.js:510:12)
-    at process.on.t (D:\CocosCreator\resources\app.asar\editor\core\editor-init.js:1:1068)
-    at emitOne (events.js:101:20)
-    at process.emit (events.js:191:7)
-    at process._fatalException (bootstrap_node.js:308:26)
-2018-07-28T01:31:33.402Z - normal: Start building with options : {
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-07-29T03:01:40.715Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
+2018-07-29T03:01:40.715Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-29T03:01:41.526Z - normal: Initializing...
+
+2018-07-29T03:01:41.535Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-07-29T03:01:41.583Z - normal: IDE server has started, listening on http://127.0.0.1:35272
+
+2018-07-29T03:01:41.583Z - normal: initialization finished
+
+2018-07-29T03:01:41.831Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 {\\\"code\\\":400003,\\\"error\\\":\\\"已存在相同 AppID 和 projectname 的项目（路径），请修改后重试\\\"}\"}"
+
+    at Socket.<anonymous> (D:\CocosCreator\resources\app.asar\editor\core\wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-07-29T03:01:57.495Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
+2018-07-29T03:01:57.495Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-29T03:01:58.294Z - normal: Initializing...
+
+2018-07-29T03:01:58.304Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-07-29T03:01:58.341Z - normal: IDE server has started, listening on http://127.0.0.1:35272
+
+2018-07-29T03:01:58.342Z - normal: initialization finished
+
+2018-07-29T03:01:59.053Z - normal: open IDE success
+
+2018-07-29T03:09:14.063Z - error: TypeError: Cannot read property 'type' of null
+    at Editor.assetdb.queryInfoByUuid (file:///D:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/panel.js:1:9572)
+    at EventEmitter.ipcRenderer.on.n (D:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4587)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-07-29T03:20:00.485Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "D:\\WechatGame_Duet_Ver2\\build",
+  "buildPath": "D:\\WechatGame_Duet_Ver3\\build",
   "debug": false,
-  "dest": "D:\\WechatGame_Duet_Ver2\\build\\wechatgame",
+  "dest": "D:\\WechatGame_Duet_Ver3\\build\\wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [
@@ -229,32 +641,30 @@
   },
   "xxteaKey": "f0c391f9-dcd7-44",
   "zipCompressJs": true,
-  "project": "D:\\WechatGame_Duet_Ver2",
+  "project": "D:\\WechatGame_Duet_Ver3",
   "projectName": "WechatGame_Duet_Local",
   "debugBuildWorker": false
 }
-2018-07-28T01:31:33.407Z - normal: Building D:\WechatGame_Duet_Ver2
-2018-07-28T01:31:33.408Z - normal: Destination D:\WechatGame_Duet_Ver2\build\wechatgame
-2018-07-28T01:31:34.263Z - normal: Delete D:\WechatGame_Duet_Ver2\build\wechatgame\**\*
-2018-07-28T01:31:38.400Z - normal: Compiled project javascript file successfully
-2018-07-28T01:31:38.400Z - normal: Start building assets
-2018-07-28T01:31:38.400Z - normal: Start spawn build-worker
-2018-07-28T01:31:39.535Z - normal: Finish spawn build-worker
-2018-07-28T01:31:39.536Z - normal: Start init build-worker
-2018-07-28T01:31:42.599Z - normal: 1.9.3
-2018-07-28T01:31:42.762Z - normal: Finish init build-worker
-2018-07-28T01:31:42.762Z - normal: Start build-assets in worker
-2018-07-28T01:31:44.127Z - normal: Finish build-assets in worker
-2018-07-28T01:31:44.144Z - normal: Finish building assets
-2018-07-28T01:31:44.175Z - normal: Start building raw assets
-2018-07-28T01:31:44.177Z - normal: Start building plugin scripts
-2018-07-28T01:31:44.356Z - normal: Finish building raw assets
-2018-07-28T01:31:44.403Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-07-28T01:31:45.418Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.419Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.420Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.439Z - success: ui-kit unloaded
-2018-07-28T01:31:45.440Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T03:20:00.491Z - normal: Building D:\WechatGame_Duet_Ver3
+2018-07-29T03:20:00.491Z - normal: Destination D:\WechatGame_Duet_Ver3\build\wechatgame
+2018-07-29T03:20:00.493Z - normal: Delete D:\WechatGame_Duet_Ver3\build\wechatgame\**\*
+2018-07-29T03:20:06.455Z - normal: Compiled project javascript file successfully
+2018-07-29T03:20:06.456Z - normal: Start building assets
+2018-07-29T03:20:06.458Z - normal: Start spawn build-worker
+2018-07-29T03:20:07.609Z - normal: Finish spawn build-worker
+2018-07-29T03:20:07.609Z - normal: Start init build-worker
+2018-07-29T03:20:11.150Z - normal: 1.9.3
+2018-07-29T03:20:11.320Z - normal: Finish init build-worker
+2018-07-29T03:20:11.320Z - normal: Start build-assets in worker
+2018-07-29T03:20:12.540Z - normal: Finish build-assets in worker
+2018-07-29T03:20:12.550Z - normal: Finish building assets
+2018-07-29T03:20:12.580Z - normal: Start building raw assets
+2018-07-29T03:20:12.582Z - normal: Start building plugin scripts
+2018-07-29T03:20:12.752Z - normal: Finish building raw assets
+2018-07-29T03:20:12.760Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T03:20:13.190Z - success: weapp-adapter unloaded
+2018-07-29T03:20:13.280Z - success: weapp-adapter loaded
+2018-07-29T03:20:13.443Z - error: Failed to remove menu in path: 开发者/AssetDB Debugger (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -263,7 +673,13 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.442Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+2018-07-29T03:20:13.444Z - success: asset-db-debugger unloaded
+2018-07-29T03:20:13.445Z - success: color-picker unloaded
+2018-07-29T03:20:13.446Z - success: qqplay-adapter unloaded
+2018-07-29T03:20:13.464Z - success: ui-kit unloaded
+2018-07-29T03:20:13.488Z - success: ui-kit-preview unloaded
+2018-07-29T03:20:13.507Z - success: ui-kit-preview-extra unloaded
+2018-07-29T03:20:13.511Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -272,8 +688,9 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.442Z - success: ui-grid unloaded
-2018-07-28T01:31:45.444Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+2018-07-29T03:20:13.512Z - success: ui-tree unloaded
+2018-07-29T03:20:13.513Z - success: code-editor unloaded
+2018-07-29T03:20:13.516Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -282,9 +699,7 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.444Z - success: ui-tree unloaded
-2018-07-28T01:31:45.445Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.446Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T03:20:13.518Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -293,7 +708,8 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.447Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+2018-07-29T03:20:13.518Z - success: ui-grid unloaded
+2018-07-29T03:20:13.520Z - error: Failed to remove menu in path: 开发者/AssetDB Debugger (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -302,9 +718,10 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.447Z - failed: Failed to uncache module main.js: Cannot find it.
-2018-07-28T01:31:45.448Z - success: ui-grid unloaded
-2018-07-28T01:31:45.449Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+2018-07-29T03:20:13.520Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.521Z - success: asset-db-debugger unloaded
+2018-07-29T03:20:13.543Z - success: sdkbox unloaded
+2018-07-29T03:20:13.546Z - error: Failed to remove menu in path: 扩展/SDKBox/Launch (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -313,10 +730,9 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.449Z - failed: Failed to uncache module main.js: Cannot find it.
-2018-07-28T01:31:45.450Z - success: ui-tree unloaded
-2018-07-28T01:31:45.450Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.451Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+2018-07-29T03:20:13.546Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.546Z - success: sdkbox unloaded
+2018-07-29T03:20:13.549Z - error: Failed to remove menu in path: 开发者/UI-Kit Preview (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -325,70 +741,9 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:45.452Z - failed: Failed to uncache module main.js: Cannot find it.
-2018-07-28T01:31:45.452Z - success: ui-tree unloaded
-2018-07-28T01:31:45.452Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.561Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
-2018-07-28T01:31:45.561Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
-2018-07-28T01:31:45.575Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
-2018-07-28T01:31:45.591Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
-2018-07-28T01:31:45.730Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.731Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.731Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.731Z - success: ui-kit loaded
-2018-07-28T01:31:45.731Z - success: ui-grid loaded
-2018-07-28T01:31:45.732Z - success: ui-tree loaded
-2018-07-28T01:31:45.732Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.732Z - success: ui-grid loaded
-2018-07-28T01:31:45.732Z - success: ui-tree loaded
-2018-07-28T01:31:45.733Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.733Z - success: ui-tree loaded
-2018-07-28T01:31:45.733Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.785Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.844Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.874Z - success: weapp-adapter unloaded
-2018-07-28T01:31:45.972Z - success: weapp-adapter loaded
-2018-07-28T01:31:45.973Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.017Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.724Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.724Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.725Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.726Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.727Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.728Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.728Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.729Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.730Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.731Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.732Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.732Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.733Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.734Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.734Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.734Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.735Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.736Z - success: weapp-adapter unloaded
-2018-07-28T01:31:46.770Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.771Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.771Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.771Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.771Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.772Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.772Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.772Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.772Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.772Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.772Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.773Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.773Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.773Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.773Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.773Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.773Z - success: weapp-adapter loaded
-2018-07-28T01:31:46.774Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.003Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.004Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.006Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T03:20:13.550Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.551Z - success: ui-kit-preview unloaded
+2018-07-29T03:20:13.553Z - error: Failed to remove menu in path: 开发者/UI-Kit Preview Extra (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -397,7 +752,9 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:47.007Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
+2018-07-29T03:20:13.554Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.554Z - success: ui-kit-preview-extra unloaded
+2018-07-29T03:20:13.557Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -406,8 +763,11 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:47.008Z - success: ui-grid unloaded
-2018-07-28T01:31:47.009Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
+2018-07-29T03:20:13.557Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.557Z - success: ui-tree unloaded
+2018-07-29T03:20:13.558Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.558Z - success: code-editor unloaded
+2018-07-29T03:20:13.562Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -416,8 +776,7 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:47.010Z - success: ui-tree unloaded
-2018-07-28T01:31:47.011Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid (could not be found)
+2018-07-29T03:20:13.564Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
     at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
     at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
     at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
@@ -426,87 +785,88 @@
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:47.013Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-grid-webview (could not be found)
-    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
-    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
-    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+2018-07-29T03:20:13.564Z - failed: Failed to uncache module main.js: Cannot find it.
+2018-07-29T03:20:13.564Z - success: ui-grid unloaded
+2018-07-29T03:20:13.720Z - failed: Failed to load panel "panel" from "asset-db-debugger", the panelID asset-db-debugger already exists
+2018-07-29T03:20:13.745Z - error: Failed to add menu to 扩展/SDKBox,
+          a menu item 扩展/SDKBox/Launch you tried to add already exists
+    at Menu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:4608)
+    at Object.MainMenu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4273)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:2770)
     at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
     at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:47.013Z - failed: Failed to uncache module main.js: Cannot find it.
-2018-07-28T01:31:47.013Z - success: ui-grid unloaded
-2018-07-28T01:31:47.015Z - error: Failed to remove menu in path: 开发者/UI Preview/ui-tree (could not be found)
-    at Menu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:6080)
-    at Object.MainMenu.remove (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4485)
-    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:5122)
+2018-07-29T03:20:13.747Z - error: Failed to add menu to 开发者,
+          a menu item 开发者/UI-Kit Preview you tried to add already exists
+    at Menu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:4608)
+    at Object.MainMenu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4273)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:2770)
     at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
     at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
     at runCallback (timers.js:672:20)
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-07-28T01:31:47.015Z - failed: Failed to uncache module main.js: Cannot find it.
-2018-07-28T01:31:47.015Z - success: ui-tree unloaded
-2018-07-28T01:31:47.030Z - success: ui-kit unloaded
-2018-07-28T01:31:47.031Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.115Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
-2018-07-28T01:31:47.115Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
-2018-07-28T01:31:47.130Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
-2018-07-28T01:31:47.157Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.165Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.166Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.166Z - success: ui-grid loaded
-2018-07-28T01:31:47.166Z - success: ui-tree loaded
-2018-07-28T01:31:47.166Z - success: ui-grid loaded
-2018-07-28T01:31:47.166Z - success: ui-tree loaded
-2018-07-28T01:31:47.167Z - success: ui-kit loaded
-2018-07-28T01:31:47.167Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.176Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.285Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.287Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.321Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.322Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.400Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.429Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.472Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.487Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.640Z - normal: Built to "D:\WechatGame_Duet_Ver2\build\wechatgame" successfully
-2018-07-28T01:31:47.659Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.661Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.662Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.663Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.663Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.664Z - success: weapp-adapter unloaded
-2018-07-28T01:31:47.666Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.667Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.667Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.667Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.667Z - success: weapp-adapter loaded
-2018-07-28T01:31:47.668Z - success: weapp-adapter loaded
-2018-07-28T01:32:07.185Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
-2018-07-28T01:32:07.185Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-07-28T01:32:08.191Z - normal: Initializing...
+2018-07-29T03:20:13.747Z - failed: Failed to load panel "panel" from "ui-kit-preview", the panelID ui-kit-preview already exists
+2018-07-29T03:20:13.748Z - error: Failed to add menu to 开发者,
+          a menu item 开发者/UI-Kit Preview Extra you tried to add already exists
+    at Menu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\menu.js:1:4608)
+    at Object.MainMenu.add (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\main-menu.js:1:4273)
+    at Async.series.a (D:\CocosCreator\resources\app.asar\editor-framework\lib\main\package.js:1:2770)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at Immediate.iterate (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-07-29T03:20:13.749Z - failed: Failed to load panel "panel" from "ui-kit-preview-extra", the panelID ui-kit-preview-extra already exists
+2018-07-29T03:20:13.765Z - failed: Failed to load panel "panel.preview" from "ui-tree", the panelID ui-tree.preview already exists
+2018-07-29T03:20:13.766Z - failed: Failed to load panel "panel" from "code-editor", the panelID code-editor already exists
+2018-07-29T03:20:13.796Z - failed: Failed to load panel "panel.preview" from "ui-grid", the panelID ui-grid.preview already exists
+2018-07-29T03:20:13.797Z - failed: Failed to load panel "panel.preview-webview" from "ui-grid", the panelID ui-grid.preview-webview already exists
+2018-07-29T03:20:13.899Z - success: asset-db-debugger loaded
+2018-07-29T03:20:13.900Z - success: color-picker loaded
+2018-07-29T03:20:13.902Z - success: qqplay-adapter loaded
+2018-07-29T03:20:13.902Z - success: ui-kit loaded
+2018-07-29T03:20:13.902Z - success: ui-kit-preview loaded
+2018-07-29T03:20:13.902Z - success: ui-kit-preview-extra loaded
+2018-07-29T03:20:13.902Z - success: ui-tree loaded
+2018-07-29T03:20:13.903Z - success: code-editor loaded
+2018-07-29T03:20:13.903Z - success: ui-grid loaded
+2018-07-29T03:20:13.903Z - success: asset-db-debugger loaded
+2018-07-29T03:20:13.903Z - success: sdkbox loaded
+2018-07-29T03:20:13.903Z - success: sdkbox loaded
+2018-07-29T03:20:13.903Z - success: ui-kit-preview loaded
+2018-07-29T03:20:13.904Z - success: ui-kit-preview-extra loaded
+2018-07-29T03:20:13.904Z - success: ui-tree loaded
+2018-07-29T03:20:13.904Z - success: code-editor loaded
+2018-07-29T03:20:13.904Z - success: ui-grid loaded
+2018-07-29T03:20:13.954Z - normal: last time update is in one day
+2018-07-29T03:20:13.954Z - normal: last time update is in one day
+2018-07-29T03:20:15.153Z - normal: Built to "D:\WechatGame_Duet_Ver3\build\wechatgame" successfully
+2018-07-29T03:20:29.096Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
+2018-07-29T03:20:29.096Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-29T03:20:29.920Z - normal: Initializing...
 
-2018-07-28T01:32:08.204Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
+2018-07-29T03:20:29.932Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
 
-2018-07-28T01:32:09.239Z - normal: starting ide...
+2018-07-29T03:20:30.964Z - normal: starting ide...
 
-2018-07-28T01:32:13.641Z - normal: IDE server has started, listening on http://127.0.0.1:42218
+2018-07-29T03:20:36.371Z - normal: IDE server has started, listening on http://127.0.0.1:27104
 
-2018-07-28T01:32:13.646Z - normal: initialization finished
+2018-07-29T03:20:36.378Z - normal: initialization finished
 
-2018-07-28T01:32:14.165Z - normal: open IDE success
+2018-07-29T03:20:36.772Z - normal: open IDE success
 
-2018-07-28T01:34:01.197Z - normal: Start building with options : {
+2018-07-29T03:23:43.559Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "D:\\WechatGame_Duet_Ver2\\build",
+  "buildPath": "D:\\WechatGame_Duet_Ver3\\build",
   "debug": false,
-  "dest": "D:\\WechatGame_Duet_Ver2\\build\\wechatgame",
+  "dest": "D:\\WechatGame_Duet_Ver3\\build\\wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [
@@ -571,149 +931,39 @@
   },
   "xxteaKey": "f0c391f9-dcd7-44",
   "zipCompressJs": true,
-  "project": "D:\\WechatGame_Duet_Ver2",
+  "project": "D:\\WechatGame_Duet_Ver3",
   "projectName": "WechatGame_Duet_Local",
   "debugBuildWorker": false
 }
-2018-07-28T01:34:01.221Z - normal: Building D:\WechatGame_Duet_Ver2
-2018-07-28T01:34:01.221Z - normal: Destination D:\WechatGame_Duet_Ver2\build\wechatgame
-2018-07-28T01:34:01.223Z - normal: Delete D:\WechatGame_Duet_Ver2\build\wechatgame\**\*
-2018-07-28T01:34:06.490Z - normal: Compiled project javascript file successfully
-2018-07-28T01:34:06.490Z - normal: Start building assets
-2018-07-28T01:34:06.491Z - normal: Start spawn build-worker
-2018-07-28T01:34:07.676Z - normal: Finish spawn build-worker
-2018-07-28T01:34:07.676Z - normal: Start init build-worker
-2018-07-28T01:34:10.568Z - normal: 1.9.3
-2018-07-28T01:34:10.706Z - normal: Finish init build-worker
-2018-07-28T01:34:10.706Z - normal: Start build-assets in worker
-2018-07-28T01:34:11.865Z - normal: Finish build-assets in worker
-2018-07-28T01:34:11.879Z - normal: Finish building assets
-2018-07-28T01:34:11.909Z - normal: Start building raw assets
-2018-07-28T01:34:11.911Z - normal: Start building plugin scripts
-2018-07-28T01:34:12.208Z - normal: Finish building raw assets
-2018-07-28T01:34:12.214Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-07-28T01:34:13.940Z - normal: Built to "D:\WechatGame_Duet_Ver2\build\wechatgame" successfully
-2018-07-28T01:34:44.214Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
-2018-07-28T01:34:44.217Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-07-28T01:34:45.084Z - normal: Initializing...
+2018-07-29T03:23:43.589Z - normal: Building D:\WechatGame_Duet_Ver3
+2018-07-29T03:23:43.589Z - normal: Destination D:\WechatGame_Duet_Ver3\build\wechatgame
+2018-07-29T03:23:43.590Z - normal: Delete D:\WechatGame_Duet_Ver3\build\wechatgame\**\*
+2018-07-29T03:23:48.878Z - normal: Compiled project javascript file successfully
+2018-07-29T03:23:48.878Z - normal: Start building assets
+2018-07-29T03:23:48.879Z - normal: Start spawn build-worker
+2018-07-29T03:23:50.477Z - normal: Finish spawn build-worker
+2018-07-29T03:23:50.478Z - normal: Start init build-worker
+2018-07-29T03:23:55.742Z - normal: 1.9.3
+2018-07-29T03:23:55.962Z - normal: Finish init build-worker
+2018-07-29T03:23:55.962Z - normal: Start build-assets in worker
+2018-07-29T03:23:56.818Z - normal: Finish build-assets in worker
+2018-07-29T03:23:56.828Z - normal: Finish building assets
+2018-07-29T03:23:56.858Z - normal: Start building raw assets
+2018-07-29T03:23:56.859Z - normal: Start building plugin scripts
+2018-07-29T03:23:57.028Z - normal: Finish building raw assets
+2018-07-29T03:23:57.037Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-07-29T03:23:58.667Z - normal: Built to "D:\WechatGame_Duet_Ver3\build\wechatgame" successfully
+2018-07-29T03:24:21.081Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
+2018-07-29T03:24:21.082Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-07-29T03:24:21.932Z - normal: Initializing...
 
-2018-07-28T01:34:45.096Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
+2018-07-29T03:24:21.941Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
 
-2018-07-28T01:34:46.124Z - normal: starting ide...
+2018-07-29T03:24:22.966Z - normal: starting ide...
 
-2018-07-28T01:34:50.401Z - normal: IDE server has started, listening on http://127.0.0.1:46997
+2018-07-29T03:24:27.774Z - normal: IDE server has started, listening on http://127.0.0.1:23694
+initialization finished
 
-2018-07-28T01:34:50.406Z - normal: initialization finished
+2018-07-29T03:24:28.336Z - normal: open IDE success
 
-2018-07-28T01:34:50.875Z - normal: open IDE success
-
-2018-07-28T01:36:34.439Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "D:\\WechatGame_Duet_Ver2\\build",
-  "debug": false,
-  "dest": "D:\\WechatGame_Duet_Ver2\\build\\wechatgame",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "TiledMap",
-    "Spine Skeleton",
-    "Toggle",
-    "Slider",
-    "EditorBox",
-    "VideoPlayer",
-    "WebView",
-    "RichText",
-    "DragonBones",
-    "RenderTexture",
-    "Chipmunk",
-    "Camera"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.WechatGame_Duet_Local",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "3d305ea5-69bb-4f39-8ca7-7986baad4150",
-    "2f5d49b0-359a-4332-ae18-68516da8042d",
-    "610f35b3-18a6-4457-8e4d-fc834577e420"
-  ],
-  "sourceMaps": false,
-  "startScene": "3d305ea5-69bb-4f39-8ca7-7986baad4150",
-  "template": "link",
-  "title": "WechatGame_Duet_Local",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx7b3192f3be562c17",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": "wx_subdomain"
-  },
-  "xxteaKey": "f0c391f9-dcd7-44",
-  "zipCompressJs": true,
-  "project": "D:\\WechatGame_Duet_Ver2",
-  "projectName": "WechatGame_Duet_Local",
-  "debugBuildWorker": false
-}
-2018-07-28T01:36:34.446Z - normal: Building D:\WechatGame_Duet_Ver2
-2018-07-28T01:36:34.446Z - normal: Destination D:\WechatGame_Duet_Ver2\build\wechatgame
-2018-07-28T01:36:34.447Z - normal: Delete D:\WechatGame_Duet_Ver2\build\wechatgame\**\*
-2018-07-28T01:36:38.564Z - normal: Compiled project javascript file successfully
-2018-07-28T01:36:38.564Z - normal: Start building assets
-2018-07-28T01:36:38.565Z - normal: Start spawn build-worker
-2018-07-28T01:36:40.002Z - normal: Finish spawn build-worker
-2018-07-28T01:36:40.002Z - normal: Start init build-worker
-2018-07-28T01:36:43.491Z - normal: 1.9.3
-2018-07-28T01:36:43.634Z - normal: Finish init build-worker
-2018-07-28T01:36:43.634Z - normal: Start build-assets in worker
-2018-07-28T01:36:44.923Z - normal: Finish build-assets in worker
-2018-07-28T01:36:44.937Z - normal: Finish building assets
-2018-07-28T01:36:44.979Z - normal: Start building raw assets
-2018-07-28T01:36:44.981Z - normal: Start building plugin scripts
-2018-07-28T01:36:45.305Z - normal: Finish building raw assets
-2018-07-28T01:36:45.313Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-07-28T01:36:47.332Z - normal: Built to "D:\WechatGame_Duet_Ver2\build\wechatgame" successfully
-2018-07-28T01:36:49.913Z - warn: 找不到微信开发程序版本信息路径 [E:\微信web开发者工具\package.nw\package.json]。
-2018-07-28T01:36:49.913Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
-2018-07-28T01:36:50.680Z - normal: Initializing...
-
-2018-07-28T01:36:50.690Z - normal: idePortFile: C:\Users\fool\AppData\Local\微信web开发者工具\User Data\Default\.ide
-
-2018-07-28T01:36:51.721Z - normal: starting ide...
-
-2018-07-28T01:36:56.794Z - normal: IDE server has started, listening on http://127.0.0.1:55633
-
-2018-07-28T01:36:56.799Z - normal: initialization finished
-
-2018-07-28T01:36:57.318Z - normal: open IDE success
-
-2018-07-28T06:25:37.288Z - info: shutdown preview server
+2018-07-29T03:27:35.987Z - info: shutdown preview server
